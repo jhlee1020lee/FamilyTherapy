@@ -1,0 +1,44 @@
+# Unity generated folders
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Uu]ser[Ss]ettings/
+[Mm]emoryCaptures/
+
+# Local placeholder/quarantine archive.
+# This folder can be several GB and is not required to open or build the current project.
+Assets/_PlaceholderAudit/
+Assets/_PlaceholderAudit.meta
+
+# Unity generated project files
+*.csproj
+*.sln
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Runtime/export artifacts
+*.log
+*.stackdump
+player_choice_log.csv
+player_choice_log.json
+case_dataset.csv
+case_dataset.json
+dashboard.html
