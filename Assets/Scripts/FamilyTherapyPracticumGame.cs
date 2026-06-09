@@ -64,18 +64,25 @@ public sealed class FamilyTherapyPracticumGame : MonoBehaviour
         "VN/Characters/FT001/ft001_mother_anxious",
         "VN/Characters/FT001/ft001_mother_defensive",
         "VN/Characters/FT001/ft001_mother_exhausted",
+        "VN/Characters/FT001/ft001_mother_listening",
         "VN/Characters/FT001/ft001_mother_softened",
+        "VN/Characters/FT001/ft001_mother_tearful",
         "VN/Characters/FT001/ft001_mother_worried",
         "VN/Characters/FT001/ft001_child_anxious",
         "VN/Characters/FT001/ft001_child_hesitant",
+        "VN/Characters/FT001/ft001_child_listening",
         "VN/Characters/FT001/ft001_child_quiet",
+        "VN/Characters/FT001/ft001_child_relieved",
         "VN/Characters/FT001/ft001_child_scared",
         "VN/Characters/FT001/ft001_child_withdrawn",
         "VN/Characters/FT001/ft001_grandmother_critical",
         "VN/Characters/FT001/ft001_grandmother_defensive",
         "VN/Characters/FT001/ft001_grandmother_softened",
+        "VN/Characters/FT001/ft001_grandmother_stubborn",
+        "VN/Characters/FT001/ft001_grandmother_worried",
         "VN/Characters/FT001/ft001_teacher_concerned",
         "VN/Characters/FT001/ft001_teacher_procedural",
+        "VN/Characters/FT001/ft001_teacher_softened",
         "VN/Characters/Supervisors/supervisor_system_approving",
         "VN/Characters/Supervisors/supervisor_system_explaining",
         "VN/Characters/Supervisors/supervisor_system_questioning",
@@ -1379,8 +1386,9 @@ public sealed class FamilyTherapyPracticumGame : MonoBehaviour
 
         var lens = CreateCard(columns.transform, "Theory Lens", new Color32(34, 38, 47, 255));
         SetLayout(lens, 0, 1, 760, -1);
-        CreateText(lens.transform, "이론 렌즈 선택", 32, FontStyle.Bold, Color.white);
-        CreateText(lens.transform, "먼저 이 가족을 어떤 이론으로 개념화할지 선택하세요. 정답은 하나로 고정되지 않지만, 사례의 핵심 단서와 가장 잘 맞는 렌즈가 있습니다.", 21, FontStyle.Normal, new Color32(226, 228, 232, 255));
+        CreateText(lens.transform, "이론 렌즈 선택", 28, FontStyle.Bold, Color.white);
+        var lensIntro = CreateText(lens.transform, "사례 단서와 맞는 가족치료 이론 렌즈를 선택하세요.", 18, FontStyle.Normal, new Color32(226, 228, 232, 255));
+        SetLayout(lensIntro.gameObject, 1, 0, -1, 30);
         foreach (var theory in theories)
         {
             TherapyTheory captured = theory;
@@ -1393,7 +1401,8 @@ public sealed class FamilyTherapyPracticumGame : MonoBehaviour
         CreateSpacer(lens.transform, 8);
         CreateText(lens.transform, "현재 선택: " + selectedTheory.name, 22, FontStyle.Bold, new Color32(248, 242, 222, 255));
         var supervisor = GetSupervisorForTheory(selectedTheory.id);
-        CreateText(lens.transform, "담당 슈퍼바이저: " + supervisor.name + "\n" + supervisor.openingLine, 19, FontStyle.Normal, new Color32(226, 228, 232, 255));
+        var supervisorIntro = CreateText(lens.transform, "담당 슈퍼바이저: " + supervisor.name + " | 반복 순환을 먼저 봅니다.", 17, FontStyle.Normal, new Color32(226, 228, 232, 255));
+        SetLayout(supervisorIntro.gameObject, 1, 0, -1, 34);
         CreateButton(lens.transform, HasVnScript(currentCase) ? "VN 회기 시작" : "훈련 회기 시작", Warm, StartCurrentCaseSession);
         CreateButton(lens.transform, "메인 메뉴", MutedInk, ShowMainMenu);
     }
@@ -1836,7 +1845,8 @@ public sealed class FamilyTherapyPracticumGame : MonoBehaviour
 
         var right = CreateCard(columns.transform, "Case Analytics", new Color32(34, 38, 47, 255));
         SetLayout(right, 0, 1, 820, -1);
-        CreateText(right.transform, "사례 데이터 분석", 34, FontStyle.Bold, Color.white);
+        var analyticsTitle = CreateText(right.transform, "사례 데이터 분석", 28, FontStyle.Bold, Color.white);
+        SetLayout(analyticsTitle.gameObject, 1, 0, -1, 40);
         CreateMetricRow(right.transform, "총 사례", cases.Count.ToString(CultureInfo.InvariantCulture), "캠페인 장", "6", "이론", theories.Count.ToString(CultureInfo.InvariantCulture));
         foreach (var group in cases.GroupBy(c => theories.First(t => t.id == c.recommendedTheoryId).name).OrderBy(g => g.Key))
         {
@@ -1848,7 +1858,8 @@ public sealed class FamilyTherapyPracticumGame : MonoBehaviour
             ExportAll();
             ShowDashboard();
         });
-        CreateText(right.transform, "Export folder:\n" + exportFolder, 18, FontStyle.Normal, new Color32(228, 230, 234, 255));
+        var exportText = CreateText(right.transform, "Export folder: " + Path.GetFileName(exportFolder), 17, FontStyle.Normal, new Color32(228, 230, 234, 255));
+        SetLayout(exportText.gameObject, 1, 0, -1, 30);
         CreateButton(right.transform, "메인 메뉴", MutedInk, ShowMainMenu);
     }
 
@@ -2321,9 +2332,7 @@ public sealed class FamilyTherapyPracticumGame : MonoBehaviour
         Texture2D texture = LoadVnTexture(resourcePath);
         if (UseDecorativeUiSkins && texture != null)
         {
-            var raw = panel.AddComponent<RawImage>();
-            raw.texture = texture;
-            raw.color = Color.white;
+            AddUiSkinImage(panel, texture, resourcePath);
         }
         else
         {
@@ -2340,9 +2349,7 @@ public sealed class FamilyTherapyPracticumGame : MonoBehaviour
         Texture2D texture = LoadVnTexture(resourcePath);
         if (UseDecorativeUiSkins && texture != null)
         {
-            var raw = panel.AddComponent<RawImage>();
-            raw.texture = texture;
-            raw.color = Color.white;
+            AddUiSkinImage(panel, texture, resourcePath);
         }
         else
         {
@@ -2456,9 +2463,7 @@ public sealed class FamilyTherapyPracticumGame : MonoBehaviour
         Texture2D texture = LoadVnTexture(resourcePath);
         if (UseDecorativeUiSkins && texture != null)
         {
-            var raw = card.AddComponent<RawImage>();
-            raw.texture = texture;
-            raw.color = Color.white;
+            AddUiSkinImage(card, texture, resourcePath);
         }
         else
         {
@@ -2520,10 +2525,7 @@ public sealed class FamilyTherapyPracticumGame : MonoBehaviour
         Texture2D texture = LoadVnTexture(resourcePath);
         if (UseDecorativeUiSkins && texture != null)
         {
-            var raw = buttonObject.AddComponent<RawImage>();
-            raw.texture = texture;
-            raw.color = Color.white;
-            targetGraphic = raw;
+            targetGraphic = AddUiSkinImage(buttonObject, texture, resourcePath);
         }
         else
         {
@@ -2546,11 +2548,50 @@ public sealed class FamilyTherapyPracticumGame : MonoBehaviour
         rect.offsetMax = new Vector2(-14, -5);
     }
 
+    private static Image AddUiSkinImage(GameObject target, Texture2D texture, string resourcePath)
+    {
+        var image = target.AddComponent<Image>();
+        image.sprite = CreateUiSkinSprite(texture, resourcePath);
+        image.type = Image.Type.Sliced;
+        image.color = Color.white;
+        image.preserveAspect = false;
+        return image;
+    }
+
+    private static Sprite CreateUiSkinSprite(Texture2D texture, string resourcePath)
+    {
+        float border = GetUiSkinBorder(texture, resourcePath);
+        float horizontal = Mathf.Min(border, texture.width / 3f);
+        float vertical = Mathf.Min(border, texture.height / 3f);
+        return Sprite.Create(
+            texture,
+            new Rect(0, 0, texture.width, texture.height),
+            new Vector2(0.5f, 0.5f),
+            100f,
+            0,
+            SpriteMeshType.FullRect,
+            new Vector4(horizontal, vertical, horizontal, vertical));
+    }
+
+    private static float GetUiSkinBorder(Texture2D texture, string resourcePath)
+    {
+        if (texture == null) return 0f;
+        string path = resourcePath ?? "";
+        float border = 36f;
+        if (path.Contains("metrics_hud")) border = 18f;
+        else if (path.Contains("speaker_nameplate")) border = 22f;
+        else if (path.Contains("choice_card")) border = 30f;
+        else if (path.Contains("dialogue_box")) border = 46f;
+        else if (path.Contains("case_file_panel")) border = 58f;
+        else if (path.Contains("session_result_sheet")) border = 64f;
+        return Mathf.Min(border, Mathf.Min(texture.width, texture.height) / 3f);
+    }
+
     private void CreateMetricRow(Transform parent, string label1, string value1, string label2, string value2, string label3, string value3)
     {
         var row = new GameObject("Metric Row");
         row.transform.SetParent(parent, false);
-        SetLayout(row, 1, 0, -1, 86);
+        SetLayout(row, 1, 0, -1, 96);
         var layout = row.AddComponent<HorizontalLayoutGroup>();
         layout.spacing = 10;
         layout.childControlWidth = true;
@@ -2564,10 +2605,26 @@ public sealed class FamilyTherapyPracticumGame : MonoBehaviour
 
     private void CreateMetric(Transform parent, string label, string value)
     {
-        var card = CreateCard(parent, "Metric", new Color32(245, 240, 227, 255));
+        var card = new GameObject("Metric");
+        card.transform.SetParent(parent, false);
+        var image = card.AddComponent<Image>();
+        image.color = new Color32(245, 240, 227, 255);
         SetLayout(card, 1, 1, -1, -1);
-        CreateText(card.transform, label, 16, FontStyle.Normal, MutedInk);
-        CreateText(card.transform, value, 22, FontStyle.Bold, Ink);
+        var labelText = CreateText(card.transform, label, 16, FontStyle.Normal, MutedInk);
+        labelText.alignment = TextAnchor.MiddleLeft;
+        AnchorMetricText(labelText, new Vector2(0f, 0.52f), new Vector2(1f, 0.92f));
+        var valueText = CreateText(card.transform, value, 22, FontStyle.Bold, Ink);
+        valueText.alignment = TextAnchor.MiddleLeft;
+        AnchorMetricText(valueText, new Vector2(0f, 0.1f), new Vector2(1f, 0.54f));
+    }
+
+    private static void AnchorMetricText(Text text, Vector2 anchorMin, Vector2 anchorMax)
+    {
+        var rect = text.GetComponent<RectTransform>();
+        rect.anchorMin = anchorMin;
+        rect.anchorMax = anchorMax;
+        rect.offsetMin = new Vector2(18, 0);
+        rect.offsetMax = new Vector2(-18, 0);
     }
 
     private void CreateBar(Transform parent, string label, int count, int total, Color color)

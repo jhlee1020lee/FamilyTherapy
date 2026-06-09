@@ -177,3 +177,26 @@ Assets/Resources/VN/UI/session_result_sheet.png
 
 - 이번 UI 이미지는 이미지 생성 서버 실패 때문에 로컬 래스터 생성 방식으로 만든 1차 적용용 스킨이다.
 - 기능 연결과 화면 충돌 검수는 통과했지만, 상용 출시급 최종 UI 아트로 보려면 별도 이미지 생성/디자이너 리터치 버전으로 교체하는 단계가 필요하다.
+
+## 10. 2026-06-09 최종 확인 기록
+
+추가 적용:
+
+- `Assets/Resources/VN/UI`에 핵심 8종 PNG와 `.png.meta`를 복원해 런타임 리소스로 유지했다.
+- UI 스킨 적용 방식을 `RawImage` 단순 stretch에서 `Image.Type.Sliced` 기반 Sprite 생성으로 변경했다.
+- 메트릭 카드, 사례 접수, 대시보드 텍스트 높이를 조정해 visual audit의 텍스트 overflow를 제거했다.
+- 최종 UI 스킨은 텍스트 없는 상담 파일풍 래스터 에셋이며, 한국어 문구는 모두 Unity 텍스트로 렌더링한다.
+
+최종 검증:
+
+- Windows 빌드 성공: `Logs/ui_asset_final_verified_build.log`, `Logs/ui_asset_final_zero_build.log`
+- 최신 assembly 기준 UI smoke 성공: `Logs/ui_asset_latest_assembly_ui_smoke.log`
+- 최신 assembly 기준 1600x900 visual audit 성공: `Logs/ui_asset_latest_assembly_visual.log`
+- `family_therapy_practicum_ui_smoke_result.json`: `completed=true`, `hudCount=1`, `dialogueCount=1`, `error=""`
+- `visual_audit_1600x900/visual_audit_result.json`: 전체 `textOverflowCount=0`, 전체 `offscreenRectCount=0`
+- 계획의 필수 캡처 화면 `01_main_menu`, `05_ft001_dialogue`, `07_ft001_choice_deck`, `13_supervision_report` 모두 텍스트 overflow 0건.
+
+주의:
+
+- Unity 로그의 licensing handshake 메시지는 빌드 실패가 아니라 에디터 라이선스 토큰 갱신 경고이며, 빌드 결과는 `Succeeded`로 확인했다.
+- 과거 placeholder 격리 폴더에 동일 UI 파일 사본이 남아 있을 수 있으나, 최종 런타임 리소스는 `Assets/Resources/VN/UI`의 8종이다.

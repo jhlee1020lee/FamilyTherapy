@@ -1,0 +1,274 @@
+[
+  {
+    "name": "ft001_child_anxious_phase1.png",
+    "width": 899,
+    "height": 1749,
+    "mode": "RGBA",
+    "bytes": 743885,
+    "path": "Assets/Resources/VN/Characters/FT001/ft001_child_anxious_phase1.png"
+  },
+  {
+    "name": "ft001_child_hesitant_phase1.png",
+    "width": 860,
+    "height": 1829,
+    "mode": "RGBA",
+    "bytes": 735650,
+    "path": "Assets/Resources/VN/Characters/FT001/ft001_child_hesitant_phase1.png"
+  },
+  {
+    "name": "ft001_child_listening_phase1.png",
+    "width": 897,
+    "height": 1753,
+    "mode": "RGBA",
+    "bytes": 780795,
+    "path": "Assets/Resources/VN/Characters/FT001/ft001_child_listening_phase1.png"
+  },
+  {
+    "name": "ft001_child_neutral_phase1.png",
+    "width": 862,
+    "height": 1824,
+    "mode": "RGBA",
+    "bytes": 687743,
+    "path": "Assets/Resources/VN/Characters/FT001/ft001_child_neutral_phase1.png"
+  },
+  {
+    "name": "ft001_child_quiet_phase1.png",
+    "width": 853,
+    "height": 1844,
+    "mode": "RGBA",
+    "bytes": 728740,
+    "path": "Assets/Resources/VN/Characters/FT001/ft001_child_quiet_phase1.png"
+  },
+  {
+    "name": "ft001_child_relieved_phase1.png",
+    "width": 902,
+    "height": 1743,
+    "mode": "RGBA",
+    "bytes": 754578,
+    "path": "Assets/Resources/VN/Characters/FT001/ft001_child_relieved_phase1.png"
+  },
+  {
+    "name": "ft001_child_scared_phase1.png",
+    "width": 854,
+    "height": 1842,
+    "mode": "RGBA",
+    "bytes": 726435,
+    "path": "Assets/Resources/VN/Characters/FT001/ft001_child_scared_phase1.png"
+  },
+  {
+    "name": "ft001_child_withdrawn_phase1.png",
+    "width": 938,
+    "height": 1677,
+    "mode": "RGBA",
+    "bytes": 752618,
+    "path": "Assets/Resources/VN/Characters/FT001/ft001_child_withdrawn_phase1.png"
+  },
+  {
+    "name": "ft001_grandmother_critical_phase1.png",
+    "width": 887,
+    "height": 1774,
+    "mode": "RGBA",
+    "bytes": 914805,
+    "path": "Assets/Resources/VN/Characters/FT001/ft001_grandmother_critical_phase1.png"
+  },
+  {
+    "name": "ft001_grandmother_defensive_phase1.png",
+    "width": 916,
+    "height": 1717,
+    "mode": "RGBA",
+    "bytes": 889428,
+    "path": "Assets/Resources/VN/Characters/FT001/ft001_grandmother_defensive_phase1.png"
+  },
+  {
+    "name": "ft001_grandmother_neutral_phase1.png",
+    "width": 860,
+    "height": 1828,
+    "mode": "RGBA",
+    "bytes": 1609681,
+    "path": "Assets/Resources/VN/Characters/FT001/ft001_grandmother_neutral_phase1.png"
+  },
+  {
+    "name": "ft001_grandmother_softened_phase1.png",
+    "width": 887,
+    "height": 1774,
+    "mode": "RGBA",
+    "bytes": 982174,
+    "path": "Assets/Resources/VN/Characters/FT001/ft001_grandmother_softened_phase1.png"
+  },
+  {
+    "name": "ft001_grandmother_stubborn_phase1.png",
+    "width": 1024,
+    "height": 1536,
+    "mode": "RGBA",
+    "bytes": 720308,
+    "path": "Assets/Resources/VN/Characters/FT001/ft001_grandmother_stubborn_phase1.png"
+  },
+  {
+    "name": "ft001_grandmother_worried_phase1.png",
+    "width": 914,
+    "height": 1721,
+    "mode": "RGBA",
+    "bytes": 1015127,
+    "path": "Assets/Resources/VN/Characters/FT001/ft001_grandmother_worried_phase1.png"
+  },
+  {
+    "name": "ft001_mother_anxious_phase1.png",
+    "width": 863,
+    "height": 1822,
+    "mode": "RGBA",
+    "bytes": 736965,
+    "path": "Assets/Resources/VN/Characters/FT001/ft001_mother_anxious_phase1.png"
+  },
+  {
+    "name": "ft001_mother_defensive_phase1.png",
+    "width": 881,
+    "height": 1784,
+    "mode": "RGBA",
+    "bytes": 820107,
+    "path": "Assets/Resources/VN/Characters/FT001/ft001_mother_defensive_phase1.png"
+  },
+  {
+    "name": "ft001_mother_exhausted_phase1.png",
+    "width": 864,
+    "height": 1821,
+    "mode": "RGBA",
+    "bytes": 840095,
+    "path": "Assets/Resources/VN/Characters/FT001/ft001_mother_exhausted_phase1.png"
+  },
+  {
+    "name": "ft001_mother_listening_phase1.png",
+    "width": 914,
+    "height": 1721,
+    "mode": "RGBA",
+    "bytes": 751036,
+    "path": "Assets/Resources/VN/Characters/FT001/ft001_mother_listening_phase1.png"
+  },
+  {
+    "name": "ft001_mother_neutral_phase0.png",
+    "width": 864,
+    "height": 1821,
+    "mode": "RGBA",
+    "bytes": 800743,
+    "path": "Assets/Resources/VN/Characters/FT001/ft001_mother_neutral_phase0.png"
+  },
+  {
+    "name": "ft001_mother_softened_phase1.png",
+    "width": 863,
+    "height": 1822,
+    "mode": "RGBA",
+    "bytes": 772977,
+    "path": "Assets/Resources/VN/Characters/FT001/ft001_mother_softened_phase1.png"
+  },
+  {
+    "name": "ft001_mother_tearful_phase1.png",
+    "width": 880,
+    "height": 1786,
+    "mode": "RGBA",
+    "bytes": 794499,
+    "path": "Assets/Resources/VN/Characters/FT001/ft001_mother_tearful_phase1.png"
+  },
+  {
+    "name": "ft001_mother_worried_phase1.png",
+    "width": 862,
+    "height": 1825,
+    "mode": "RGBA",
+    "bytes": 774495,
+    "path": "Assets/Resources/VN/Characters/FT001/ft001_mother_worried_phase1.png"
+  },
+  {
+    "name": "ft001_teacher_concerned_phase1.png",
+    "width": 887,
+    "height": 1774,
+    "mode": "RGBA",
+    "bytes": 672445,
+    "path": "Assets/Resources/VN/Characters/FT001/ft001_teacher_concerned_phase1.png"
+  },
+  {
+    "name": "ft001_teacher_neutral_phase1.png",
+    "width": 852,
+    "height": 1846,
+    "mode": "RGBA",
+    "bytes": 728944,
+    "path": "Assets/Resources/VN/Characters/FT001/ft001_teacher_neutral_phase1.png"
+  },
+  {
+    "name": "ft001_teacher_procedural_phase1.png",
+    "width": 887,
+    "height": 1774,
+    "mode": "RGBA",
+    "bytes": 650356,
+    "path": "Assets/Resources/VN/Characters/FT001/ft001_teacher_procedural_phase1.png"
+  },
+  {
+    "name": "ft001_teacher_softened_phase1.png",
+    "width": 862,
+    "height": 1825,
+    "mode": "RGBA",
+    "bytes": 679116,
+    "path": "Assets/Resources/VN/Characters/FT001/ft001_teacher_softened_phase1.png"
+  },
+  {
+    "name": "case_file_panel.png",
+    "width": 1024,
+    "height": 1024,
+    "mode": "RGBA",
+    "bytes": 38940,
+    "path": "Assets/Resources/VN/UI/case_file_panel.png"
+  },
+  {
+    "name": "choice_card_intervention.png",
+    "width": 1200,
+    "height": 140,
+    "mode": "RGBA",
+    "bytes": 16653,
+    "path": "Assets/Resources/VN/UI/choice_card_intervention.png"
+  },
+  {
+    "name": "choice_card_question.png",
+    "width": 1200,
+    "height": 140,
+    "mode": "RGBA",
+    "bytes": 16089,
+    "path": "Assets/Resources/VN/UI/choice_card_question.png"
+  },
+  {
+    "name": "dialogue_box.png",
+    "width": 1600,
+    "height": 320,
+    "mode": "RGBA",
+    "bytes": 23418,
+    "path": "Assets/Resources/VN/UI/dialogue_box.png"
+  },
+  {
+    "name": "metrics_hud.png",
+    "width": 1600,
+    "height": 96,
+    "mode": "RGBA",
+    "bytes": 13805,
+    "path": "Assets/Resources/VN/UI/metrics_hud.png"
+  },
+  {
+    "name": "session_result_sheet.png",
+    "width": 1400,
+    "height": 960,
+    "mode": "RGBA",
+    "bytes": 32383,
+    "path": "Assets/Resources/VN/UI/session_result_sheet.png"
+  },
+  {
+    "name": "speaker_nameplate.png",
+    "width": 560,
+    "height": 88,
+    "mode": "RGBA",
+    "bytes": 11313,
+    "path": "Assets/Resources/VN/UI/speaker_nameplate.png"
+  },
+  {
+    "name": "supervisor_note_panel.png",
+    "width": 640,
+    "height": 360,
+    "mode": "RGBA",
+    "bytes": 18574,
+    "path": "Assets/Resources/VN/UI/supervisor_note_panel.png"
+  }
+]
