@@ -1,0 +1,620 @@
+{
+  "generated_at": "2026-06-11",
+  "final_folder": "Assets/Resources/VN/EventCG/FT001_LineByLineLocked_Regen_20260611",
+  "source_folder": "Docs/GeneratedSources/FT001_LineByLineLocked_Regen_20260611",
+  "reference_bible_count": 6,
+  "final_cg_count": 67,
+  "validation": {
+    "expected_count": 67,
+    "actual_count": 67,
+    "missing": [],
+    "extra": [],
+    "wrong_dimensions": [],
+    "duplicate_groups": []
+  },
+  "files": [
+    {
+      "file": "ft001_cg_intro_01_mother_neutral.png",
+      "camera": "CAM_B_MOTHER_MEDIUM",
+      "width": 1600,
+      "height": 900,
+      "sha256": "785498c8e6e3277c5f622db62d9519747a6e21611f82dcecbe20cb147e7c0ab9",
+      "bytes": 1810625,
+      "relative_path": "Assets/Resources/VN/EventCG/FT001_LineByLineLocked_Regen_20260611/ft001_cg_intro_01_mother_neutral.png"
+    },
+    {
+      "file": "ft001_cg_intro_02_child_neutral.png",
+      "camera": "CAM_C_CHILD_MEDIUM",
+      "width": 1600,
+      "height": 900,
+      "sha256": "5c30f1f65487aeff2b0a4680d32bf8896fe253d507a74340b624d1b91138f9db",
+      "bytes": 1751634,
+      "relative_path": "Assets/Resources/VN/EventCG/FT001_LineByLineLocked_Regen_20260611/ft001_cg_intro_02_child_neutral.png"
+    },
+    {
+      "file": "ft001_cg_intro_03_grandmother_neutral.png",
+      "camera": "CAM_D_GRANDMOTHER_MEDIUM",
+      "width": 1600,
+      "height": 900,
+      "sha256": "89610705555bcc39edef72593d3b82acc3788174ca7f1cdbf628efd2a62efc58",
+      "bytes": 2000582,
+      "relative_path": "Assets/Resources/VN/EventCG/FT001_LineByLineLocked_Regen_20260611/ft001_cg_intro_03_grandmother_neutral.png"
+    },
+    {
+      "file": "ft001_cg_intro_04_teacher_neutral.png",
+      "camera": "CAM_E_TEACHER_MEDIUM",
+      "width": 1600,
+      "height": 900,
+      "sha256": "007908d3ac5c4e0215c1768ba8062c7aa23556116541c2a4b19106110d580bf9",
+      "bytes": 1632486,
+      "relative_path": "Assets/Resources/VN/EventCG/FT001_LineByLineLocked_Regen_20260611/ft001_cg_intro_04_teacher_neutral.png"
+    },
+    {
+      "file": "ft001_cg_intro_05_supervisor_explaining.png",
+      "camera": "CAM_F_SUPERVISOR_REVERSE",
+      "width": 1600,
+      "height": 900,
+      "sha256": "06639a1a7f3bea3410f6cde51edda77a1876bb6ed2040a18f78a1b6c7725e9e5",
+      "bytes": 1646280,
+      "relative_path": "Assets/Resources/VN/EventCG/FT001_LineByLineLocked_Regen_20260611/ft001_cg_intro_05_supervisor_explaining.png"
+    },
+    {
+      "file": "ft001_cg_t01_choice_idle.png",
+      "camera": "CAM_A_FAMILY_WIDE",
+      "width": 1600,
+      "height": 900,
+      "sha256": "74e4ef9bf4a9e747e9fee34b4e41e95fb0ebe7ea8ee3bf307ca8156058f31cd7",
+      "bytes": 1965120,
+      "relative_path": "Assets/Resources/VN/EventCG/FT001_LineByLineLocked_Regen_20260611/ft001_cg_t01_choice_idle.png"
+    },
+    {
+      "file": "ft001_cg_t01_l01_mother_neutral.png",
+      "camera": "CAM_B_MOTHER_MEDIUM",
+      "width": 1600,
+      "height": 900,
+      "sha256": "90cd391642bb32f695135b97b7d74bd6357125ec076491bf36e30042db7cf0e9",
+      "bytes": 1926767,
+      "relative_path": "Assets/Resources/VN/EventCG/FT001_LineByLineLocked_Regen_20260611/ft001_cg_t01_l01_mother_neutral.png"
+    },
+    {
+      "file": "ft001_cg_t01_l02_child_anxious.png",
+      "camera": "CAM_C_CHILD_MEDIUM",
+      "width": 1600,
+      "height": 900,
+      "sha256": "8620eb1f7435d847ee1e2e4babcdb23b32f58087cfdbffdfac200769a5b679f2",
+      "bytes": 1940209,
+      "relative_path": "Assets/Resources/VN/EventCG/FT001_LineByLineLocked_Regen_20260611/ft001_cg_t01_l02_child_anxious.png"
+    },
+    {
+      "file": "ft001_cg_t01_l03_mother_worried.png",
+      "camera": "CAM_B_MOTHER_MEDIUM",
+      "width": 1600,
+      "height": 900,
+      "sha256": "bb96bb393991f20bea2c3e2ce57110cf40cce6020b921a84d3cad57da3a77e3d",
+      "bytes": 1869440,
+      "relative_path": "Assets/Resources/VN/EventCG/FT001_LineByLineLocked_Regen_20260611/ft001_cg_t01_l03_mother_worried.png"
+    },
+    {
+      "file": "ft001_cg_t01_l04_child_quiet.png",
+      "camera": "CAM_C_CHILD_MEDIUM",
+      "width": 1600,
+      "height": 900,
+      "sha256": "bc00c214efd83c80a0db5816b20d78ec5de5c40b702ee6633e8bb4adc1edb3d3",
+      "bytes": 1870204,
+      "relative_path": "Assets/Resources/VN/EventCG/FT001_LineByLineLocked_Regen_20260611/ft001_cg_t01_l04_child_quiet.png"
+    },
+    {
+      "file": "ft001_cg_t01_l05_teacher_concerned.png",
+      "camera": "CAM_E_TEACHER_MEDIUM",
+      "width": 1600,
+      "height": 900,
+      "sha256": "fd6848a400a0d590cb7352e5ec37d72cf1d0ffd10fde945fca7d367a7776db85",
+      "bytes": 1771153,
+      "relative_path": "Assets/Resources/VN/EventCG/FT001_LineByLineLocked_Regen_20260611/ft001_cg_t01_l05_teacher_concerned.png"
+    },
+    {
+      "file": "ft001_cg_t01_l06_supervisor_explaining.png",
+      "camera": "CAM_F_SUPERVISOR_REVERSE",
+      "width": 1600,
+      "height": 900,
+      "sha256": "ff5e9e18f71a5fd1d1bf0e14b84482316d83d8e319ed54c5d4a62dac1f6c8d7c",
+      "bytes": 1584662,
+      "relative_path": "Assets/Resources/VN/EventCG/FT001_LineByLineLocked_Regen_20260611/ft001_cg_t01_l06_supervisor_explaining.png"
+    },
+    {
+      "file": "ft001_cg_t01_reaction_a_mother_softened.png",
+      "camera": "CAM_B_MOTHER_MEDIUM",
+      "width": 1600,
+      "height": 900,
+      "sha256": "afd4c5e9e050a3ae5862fb386a3a071683d4d7d06bebd707b7077e270428cd6b",
+      "bytes": 1899534,
+      "relative_path": "Assets/Resources/VN/EventCG/FT001_LineByLineLocked_Regen_20260611/ft001_cg_t01_reaction_a_mother_softened.png"
+    },
+    {
+      "file": "ft001_cg_t01_reaction_b_child_withdrawn.png",
+      "camera": "CAM_C_CHILD_MEDIUM",
+      "width": 1600,
+      "height": 900,
+      "sha256": "a33f243de28ca6aaecca1189aa865dd382f7911b01dd6bbf3dad0ccce9018a7d",
+      "bytes": 1893724,
+      "relative_path": "Assets/Resources/VN/EventCG/FT001_LineByLineLocked_Regen_20260611/ft001_cg_t01_reaction_b_child_withdrawn.png"
+    },
+    {
+      "file": "ft001_cg_t01_reaction_c_teacher_procedural.png",
+      "camera": "CAM_E_TEACHER_MEDIUM",
+      "width": 1600,
+      "height": 900,
+      "sha256": "6e2f8ea20f24ee292023448b81fc14e32f15c50a8be480376b7c5c5f12f93adc",
+      "bytes": 1741204,
+      "relative_path": "Assets/Resources/VN/EventCG/FT001_LineByLineLocked_Regen_20260611/ft001_cg_t01_reaction_c_teacher_procedural.png"
+    },
+    {
+      "file": "ft001_cg_t02_l00_branch_mother_open.png",
+      "camera": "CAM_B_MOTHER_MEDIUM",
+      "width": 1600,
+      "height": 900,
+      "sha256": "7a4da2afab1d1819a9cdf5f11737a666710daf5368bc703ca7d5609a5a43e063",
+      "bytes": 1733136,
+      "relative_path": "Assets/Resources/VN/EventCG/FT001_LineByLineLocked_Regen_20260611/ft001_cg_t02_l00_branch_mother_open.png"
+    },
+    {
+      "file": "ft001_cg_t02_l00_branch_child_closed.png",
+      "camera": "CAM_C_CHILD_MEDIUM",
+      "width": 1600,
+      "height": 900,
+      "sha256": "f08e45716046c7180c45874377e0a455a4eaf2b914bbb8cab8beaad95cbec970",
+      "bytes": 1703740,
+      "relative_path": "Assets/Resources/VN/EventCG/FT001_LineByLineLocked_Regen_20260611/ft001_cg_t02_l00_branch_child_closed.png"
+    },
+    {
+      "file": "ft001_cg_t02_l00_branch_teacher_cautious.png",
+      "camera": "CAM_E_TEACHER_MEDIUM",
+      "width": 1600,
+      "height": 900,
+      "sha256": "e3a82d3c1c53272c3b42daac95fa4344f9e5eeb2d8a737f47b6e57260ffa002e",
+      "bytes": 1783285,
+      "relative_path": "Assets/Resources/VN/EventCG/FT001_LineByLineLocked_Regen_20260611/ft001_cg_t02_l00_branch_teacher_cautious.png"
+    },
+    {
+      "file": "ft001_cg_t02_choice_idle.png",
+      "camera": "CAM_A_FAMILY_WIDE",
+      "width": 1600,
+      "height": 900,
+      "sha256": "25b756b0d9374e84cdbe50839ca2a88a3cd39b8a86b29e3407d0d65145da9fb8",
+      "bytes": 1853490,
+      "relative_path": "Assets/Resources/VN/EventCG/FT001_LineByLineLocked_Regen_20260611/ft001_cg_t02_choice_idle.png"
+    },
+    {
+      "file": "ft001_cg_t02_l01_mother_defensive.png",
+      "camera": "CAM_B_MOTHER_MEDIUM",
+      "width": 1600,
+      "height": 900,
+      "sha256": "0309322ccd5152d5f1269a199fb603e509aea344fcda58c42647ab9ee3820f4f",
+      "bytes": 1707259,
+      "relative_path": "Assets/Resources/VN/EventCG/FT001_LineByLineLocked_Regen_20260611/ft001_cg_t02_l01_mother_defensive.png"
+    },
+    {
+      "file": "ft001_cg_t02_l02_child_quiet.png",
+      "camera": "CAM_C_CHILD_MEDIUM",
+      "width": 1600,
+      "height": 900,
+      "sha256": "89621504a9779c3aa61dcb49173559bfdfbdbebe5497fef04f62c4e4d8801ebd",
+      "bytes": 1870664,
+      "relative_path": "Assets/Resources/VN/EventCG/FT001_LineByLineLocked_Regen_20260611/ft001_cg_t02_l02_child_quiet.png"
+    },
+    {
+      "file": "ft001_cg_t02_l03_mother_exhausted.png",
+      "camera": "CAM_B_MOTHER_MEDIUM",
+      "width": 1600,
+      "height": 900,
+      "sha256": "12a4f262f57e2067d4b6aee26412b32bcb1e909a1302f72db5df65341f3a2a34",
+      "bytes": 1870909,
+      "relative_path": "Assets/Resources/VN/EventCG/FT001_LineByLineLocked_Regen_20260611/ft001_cg_t02_l03_mother_exhausted.png"
+    },
+    {
+      "file": "ft001_cg_t02_l04_child_hesitant.png",
+      "camera": "CAM_C_CHILD_MEDIUM",
+      "width": 1600,
+      "height": 900,
+      "sha256": "29ba1ff809ba7c6349c6c50b7b8c4be2bcf795ee464e2f62c253ff1a0cbaa0e9",
+      "bytes": 1934376,
+      "relative_path": "Assets/Resources/VN/EventCG/FT001_LineByLineLocked_Regen_20260611/ft001_cg_t02_l04_child_hesitant.png"
+    },
+    {
+      "file": "ft001_cg_t02_l05_teacher_procedural.png",
+      "camera": "CAM_E_TEACHER_MEDIUM",
+      "width": 1600,
+      "height": 900,
+      "sha256": "c3e4249ac9cb1be916337aedc1582902d62f00c3e688d98a779ddf9a5dc03583",
+      "bytes": 1605816,
+      "relative_path": "Assets/Resources/VN/EventCG/FT001_LineByLineLocked_Regen_20260611/ft001_cg_t02_l05_teacher_procedural.png"
+    },
+    {
+      "file": "ft001_cg_t02_l06_supervisor_explaining.png",
+      "camera": "CAM_F_SUPERVISOR_REVERSE",
+      "width": 1600,
+      "height": 900,
+      "sha256": "eab9e00a1bd22fc16e9eb5c839ec3336428c5edd983397803523dbc6809ef642",
+      "bytes": 1578026,
+      "relative_path": "Assets/Resources/VN/EventCG/FT001_LineByLineLocked_Regen_20260611/ft001_cg_t02_l06_supervisor_explaining.png"
+    },
+    {
+      "file": "ft001_cg_t02_reaction_a_mother_softened.png",
+      "camera": "CAM_B_MOTHER_MEDIUM",
+      "width": 1600,
+      "height": 900,
+      "sha256": "ab3910374accdb9425b5a1ad7413a8e96176cce0a849e4d8c7a51aa7fe977bfc",
+      "bytes": 1738834,
+      "relative_path": "Assets/Resources/VN/EventCG/FT001_LineByLineLocked_Regen_20260611/ft001_cg_t02_reaction_a_mother_softened.png"
+    },
+    {
+      "file": "ft001_cg_t02_reaction_b_mother_defensive.png",
+      "camera": "CAM_B_MOTHER_MEDIUM",
+      "width": 1600,
+      "height": 900,
+      "sha256": "79483ae98ebbc56702e248aacbd4e42d3434db3c37badb329c32da2f9f8496b7",
+      "bytes": 1808949,
+      "relative_path": "Assets/Resources/VN/EventCG/FT001_LineByLineLocked_Regen_20260611/ft001_cg_t02_reaction_b_mother_defensive.png"
+    },
+    {
+      "file": "ft001_cg_t02_reaction_c_child_withdrawn.png",
+      "camera": "CAM_C_CHILD_MEDIUM",
+      "width": 1600,
+      "height": 900,
+      "sha256": "72f71cb5d15a98dd31395522969e78fda7fbee882a519060aec6f32e88192c43",
+      "bytes": 1816082,
+      "relative_path": "Assets/Resources/VN/EventCG/FT001_LineByLineLocked_Regen_20260611/ft001_cg_t02_reaction_c_child_withdrawn.png"
+    },
+    {
+      "file": "ft001_cg_t03_l00_branch_child_links_pattern.png",
+      "camera": "CAM_C_CHILD_MEDIUM",
+      "width": 1600,
+      "height": 900,
+      "sha256": "1eae36333367c15ab2fa487e1348721263943f08afd114e33248e4f226796f4a",
+      "bytes": 1806481,
+      "relative_path": "Assets/Resources/VN/EventCG/FT001_LineByLineLocked_Regen_20260611/ft001_cg_t03_l00_branch_child_links_pattern.png"
+    },
+    {
+      "file": "ft001_cg_t03_l00_branch_mother_defensive.png",
+      "camera": "CAM_B_MOTHER_MEDIUM",
+      "width": 1600,
+      "height": 900,
+      "sha256": "ea9afad1f035d2a11a952783547bd46de40f4eabd071fd3ffe9b32a3ec21421a",
+      "bytes": 1917298,
+      "relative_path": "Assets/Resources/VN/EventCG/FT001_LineByLineLocked_Regen_20260611/ft001_cg_t03_l00_branch_mother_defensive.png"
+    },
+    {
+      "file": "ft001_cg_t03_l00_branch_mother_cautious.png",
+      "camera": "CAM_B_MOTHER_MEDIUM",
+      "width": 1600,
+      "height": 900,
+      "sha256": "6308d3c83698d41d95048b623223b003dad8cc064de1545847b700fe2dccf694",
+      "bytes": 1759893,
+      "relative_path": "Assets/Resources/VN/EventCG/FT001_LineByLineLocked_Regen_20260611/ft001_cg_t03_l00_branch_mother_cautious.png"
+    },
+    {
+      "file": "ft001_cg_t03_choice_idle.png",
+      "camera": "CAM_A_FAMILY_WIDE",
+      "width": 1600,
+      "height": 900,
+      "sha256": "ceaeba1db9a22cfaf5ae25317033328649781bb6e7cf1f001a0c61096b1ce431",
+      "bytes": 1917477,
+      "relative_path": "Assets/Resources/VN/EventCG/FT001_LineByLineLocked_Regen_20260611/ft001_cg_t03_choice_idle.png"
+    },
+    {
+      "file": "ft001_cg_t03_l01_grandmother_critical.png",
+      "camera": "CAM_D_GRANDMOTHER_MEDIUM",
+      "width": 1600,
+      "height": 900,
+      "sha256": "712a759c275bd03bc3a43faef9b38110ba5414681e605af746ac78773cf98181",
+      "bytes": 1906023,
+      "relative_path": "Assets/Resources/VN/EventCG/FT001_LineByLineLocked_Regen_20260611/ft001_cg_t03_l01_grandmother_critical.png"
+    },
+    {
+      "file": "ft001_cg_t03_l02_mother_exhausted.png",
+      "camera": "CAM_B_MOTHER_MEDIUM",
+      "width": 1600,
+      "height": 900,
+      "sha256": "52d98829bea45400ab815389697ef5988634da5248db3e916dc3d4e2ca4f5a27",
+      "bytes": 1857182,
+      "relative_path": "Assets/Resources/VN/EventCG/FT001_LineByLineLocked_Regen_20260611/ft001_cg_t03_l02_mother_exhausted.png"
+    },
+    {
+      "file": "ft001_cg_t03_l03_grandmother_worried.png",
+      "camera": "CAM_D_GRANDMOTHER_MEDIUM",
+      "width": 1600,
+      "height": 900,
+      "sha256": "c54deb8837405d91fe5a768d875f8c73b6c16222ff238b2f8efa3d337499c64d",
+      "bytes": 1796003,
+      "relative_path": "Assets/Resources/VN/EventCG/FT001_LineByLineLocked_Regen_20260611/ft001_cg_t03_l03_grandmother_worried.png"
+    },
+    {
+      "file": "ft001_cg_t03_l04_mother_tearful.png",
+      "camera": "CAM_B_MOTHER_MEDIUM",
+      "width": 1600,
+      "height": 900,
+      "sha256": "d775e51a61bf4074e2d8632f39594f74409fa5fe37389cac699da90ab6c5c675",
+      "bytes": 1867805,
+      "relative_path": "Assets/Resources/VN/EventCG/FT001_LineByLineLocked_Regen_20260611/ft001_cg_t03_l04_mother_tearful.png"
+    },
+    {
+      "file": "ft001_cg_t03_l05_child_scared.png",
+      "camera": "CAM_C_CHILD_MEDIUM",
+      "width": 1600,
+      "height": 900,
+      "sha256": "0b25fb06ff3c3dbc673ccd28f1049f95a70ce9b5938e693d2cf81841e99cab12",
+      "bytes": 1843846,
+      "relative_path": "Assets/Resources/VN/EventCG/FT001_LineByLineLocked_Regen_20260611/ft001_cg_t03_l05_child_scared.png"
+    },
+    {
+      "file": "ft001_cg_t03_l06_supervisor_questioning.png",
+      "camera": "CAM_F_SUPERVISOR_REVERSE",
+      "width": 1600,
+      "height": 900,
+      "sha256": "7cc1a50eeeebae6da3fd0d68438cc343eeb4acbd10910aec0794257fc286df47",
+      "bytes": 1625678,
+      "relative_path": "Assets/Resources/VN/EventCG/FT001_LineByLineLocked_Regen_20260611/ft001_cg_t03_l06_supervisor_questioning.png"
+    },
+    {
+      "file": "ft001_cg_t03_reaction_a_grandmother_softened.png",
+      "camera": "CAM_D_GRANDMOTHER_MEDIUM",
+      "width": 1600,
+      "height": 900,
+      "sha256": "651b0ad94816eb99796d0f26e27b7b254f8df08be654d3507f5edf26672f5d32",
+      "bytes": 1832829,
+      "relative_path": "Assets/Resources/VN/EventCG/FT001_LineByLineLocked_Regen_20260611/ft001_cg_t03_reaction_a_grandmother_softened.png"
+    },
+    {
+      "file": "ft001_cg_t03_reaction_b_grandmother_defensive.png",
+      "camera": "CAM_D_GRANDMOTHER_MEDIUM",
+      "width": 1600,
+      "height": 900,
+      "sha256": "3142481d83e548a500ffbbfa3a7ba91ee465fc47fedf7e44abcd100faa69dc63",
+      "bytes": 1847278,
+      "relative_path": "Assets/Resources/VN/EventCG/FT001_LineByLineLocked_Regen_20260611/ft001_cg_t03_reaction_b_grandmother_defensive.png"
+    },
+    {
+      "file": "ft001_cg_t03_reaction_c_child_hesitant.png",
+      "camera": "CAM_C_CHILD_MEDIUM",
+      "width": 1600,
+      "height": 900,
+      "sha256": "ab7ea6d53b479f725cf17e1be814d212b7ebd62b5b06c41d19d3d3b8284118aa",
+      "bytes": 1836395,
+      "relative_path": "Assets/Resources/VN/EventCG/FT001_LineByLineLocked_Regen_20260611/ft001_cg_t03_reaction_c_child_hesitant.png"
+    },
+    {
+      "file": "ft001_cg_t04_l00_branch_grandmother_softened.png",
+      "camera": "CAM_D_GRANDMOTHER_MEDIUM",
+      "width": 1600,
+      "height": 900,
+      "sha256": "7c3ebf307b5a7993262040c8e988fd0363eb3adc5d00eb7b166e6dfc39542c0c",
+      "bytes": 1846184,
+      "relative_path": "Assets/Resources/VN/EventCG/FT001_LineByLineLocked_Regen_20260611/ft001_cg_t04_l00_branch_grandmother_softened.png"
+    },
+    {
+      "file": "ft001_cg_t04_l00_branch_grandmother_stubborn.png",
+      "camera": "CAM_D_GRANDMOTHER_MEDIUM",
+      "width": 1600,
+      "height": 900,
+      "sha256": "0f6f61542aacbea6f949dd2977833d54ba43893f297bb7d4016f4e6a1f97e3eb",
+      "bytes": 1878308,
+      "relative_path": "Assets/Resources/VN/EventCG/FT001_LineByLineLocked_Regen_20260611/ft001_cg_t04_l00_branch_grandmother_stubborn.png"
+    },
+    {
+      "file": "ft001_cg_t04_l00_branch_child_exception.png",
+      "camera": "CAM_C_CHILD_MEDIUM",
+      "width": 1600,
+      "height": 900,
+      "sha256": "99f1de37f663fee265c4984608f683d7f36bdd54f8a66747202f04fbdafae323",
+      "bytes": 1783112,
+      "relative_path": "Assets/Resources/VN/EventCG/FT001_LineByLineLocked_Regen_20260611/ft001_cg_t04_l00_branch_child_exception.png"
+    },
+    {
+      "file": "ft001_cg_t04_choice_idle.png",
+      "camera": "CAM_A_FAMILY_WIDE",
+      "width": 1600,
+      "height": 900,
+      "sha256": "aa8f40c5fef2c0475acb07e65cc9e73bd75710f111e78909fd8c90c81b5de5bd",
+      "bytes": 2007743,
+      "relative_path": "Assets/Resources/VN/EventCG/FT001_LineByLineLocked_Regen_20260611/ft001_cg_t04_choice_idle.png"
+    },
+    {
+      "file": "ft001_cg_t04_l01_supervisor_questioning.png",
+      "camera": "CAM_F_SUPERVISOR_REVERSE",
+      "width": 1600,
+      "height": 900,
+      "sha256": "9ef806675a38ea93524ed66ce1e8c99f4bdf6c0a9cf74ae1c8e5fe2cc333846f",
+      "bytes": 1712140,
+      "relative_path": "Assets/Resources/VN/EventCG/FT001_LineByLineLocked_Regen_20260611/ft001_cg_t04_l01_supervisor_questioning.png"
+    },
+    {
+      "file": "ft001_cg_t04_l02_mother_worried.png",
+      "camera": "CAM_B_MOTHER_MEDIUM",
+      "width": 1600,
+      "height": 900,
+      "sha256": "bd18945b7ae1370de1ddd10da37c732e61a75a5e4ec583981172a18c3b84d92a",
+      "bytes": 1807126,
+      "relative_path": "Assets/Resources/VN/EventCG/FT001_LineByLineLocked_Regen_20260611/ft001_cg_t04_l02_mother_worried.png"
+    },
+    {
+      "file": "ft001_cg_t04_l03_child_quiet.png",
+      "camera": "CAM_C_CHILD_MEDIUM",
+      "width": 1600,
+      "height": 900,
+      "sha256": "74b070e1e29bede6496808178d762d719fbb23c24721a6d6525e2d596daad83d",
+      "bytes": 1872632,
+      "relative_path": "Assets/Resources/VN/EventCG/FT001_LineByLineLocked_Regen_20260611/ft001_cg_t04_l03_child_quiet.png"
+    },
+    {
+      "file": "ft001_cg_t04_l04_mother_listening.png",
+      "camera": "CAM_B_MOTHER_MEDIUM",
+      "width": 1600,
+      "height": 900,
+      "sha256": "2aa4435d1fdf98e951dc98cba0620fd3ceb753314635b588777e11a1b0378ef7",
+      "bytes": 1859534,
+      "relative_path": "Assets/Resources/VN/EventCG/FT001_LineByLineLocked_Regen_20260611/ft001_cg_t04_l04_mother_listening.png"
+    },
+    {
+      "file": "ft001_cg_t04_l05_child_hesitant.png",
+      "camera": "CAM_C_CHILD_MEDIUM",
+      "width": 1600,
+      "height": 900,
+      "sha256": "587590e7c6cd6c0255167982724babe7fb9e41f3c39ff9da533c6c617879d28a",
+      "bytes": 1867817,
+      "relative_path": "Assets/Resources/VN/EventCG/FT001_LineByLineLocked_Regen_20260611/ft001_cg_t04_l05_child_hesitant.png"
+    },
+    {
+      "file": "ft001_cg_t04_l06_supervisor_explaining.png",
+      "camera": "CAM_F_SUPERVISOR_REVERSE",
+      "width": 1600,
+      "height": 900,
+      "sha256": "304bb12881f4c826032f886da7a5f90af411df14bab2124a0adb7cbe6ce96239",
+      "bytes": 1659858,
+      "relative_path": "Assets/Resources/VN/EventCG/FT001_LineByLineLocked_Regen_20260611/ft001_cg_t04_l06_supervisor_explaining.png"
+    },
+    {
+      "file": "ft001_cg_t04_reaction_a_supervisor_approving.png",
+      "camera": "CAM_F_SUPERVISOR_REVERSE",
+      "width": 1600,
+      "height": 900,
+      "sha256": "0667b4345a9059670abd59879f92549d80187e6853ae48f391d042bb6966de15",
+      "bytes": 1717716,
+      "relative_path": "Assets/Resources/VN/EventCG/FT001_LineByLineLocked_Regen_20260611/ft001_cg_t04_reaction_a_supervisor_approving.png"
+    },
+    {
+      "file": "ft001_cg_t04_reaction_b_mother_anxious.png",
+      "camera": "CAM_B_MOTHER_MEDIUM",
+      "width": 1600,
+      "height": 900,
+      "sha256": "f76bdde1baf500a26feeccad61de02e5e51bedf2ac461566431427a48e7ee004",
+      "bytes": 1866649,
+      "relative_path": "Assets/Resources/VN/EventCG/FT001_LineByLineLocked_Regen_20260611/ft001_cg_t04_reaction_b_mother_anxious.png"
+    },
+    {
+      "file": "ft001_cg_t04_reaction_c_child_withdrawn.png",
+      "camera": "CAM_C_CHILD_MEDIUM",
+      "width": 1600,
+      "height": 900,
+      "sha256": "14134c3192937449c975b9b69a35113d3f3b3a80c6983e003d33598e1962274f",
+      "bytes": 2007876,
+      "relative_path": "Assets/Resources/VN/EventCG/FT001_LineByLineLocked_Regen_20260611/ft001_cg_t04_reaction_c_child_withdrawn.png"
+    },
+    {
+      "file": "ft001_cg_t05_l00_branch_teacher_adjusts.png",
+      "camera": "CAM_E_TEACHER_MEDIUM",
+      "width": 1600,
+      "height": 900,
+      "sha256": "11a02ceecae7d75ca105fc0444f60f55eea2c32162fcc831b2ed8a7f9ed41d7e",
+      "bytes": 1811140,
+      "relative_path": "Assets/Resources/VN/EventCG/FT001_LineByLineLocked_Regen_20260611/ft001_cg_t05_l00_branch_teacher_adjusts.png"
+    },
+    {
+      "file": "ft001_cg_t05_l00_branch_child_scared.png",
+      "camera": "CAM_C_CHILD_MEDIUM",
+      "width": 1600,
+      "height": 900,
+      "sha256": "7e9cabf1d7ed4ad31aab448e541ce6fc320c233995b6bad38135b5587695921a",
+      "bytes": 1866368,
+      "relative_path": "Assets/Resources/VN/EventCG/FT001_LineByLineLocked_Regen_20260611/ft001_cg_t05_l00_branch_child_scared.png"
+    },
+    {
+      "file": "ft001_cg_t05_l00_branch_mother_anxious.png",
+      "camera": "CAM_B_MOTHER_MEDIUM",
+      "width": 1600,
+      "height": 900,
+      "sha256": "2668bda5109afd62e0de151d65a662b83eb3d53e3d47e26f0cfb013e584a74e4",
+      "bytes": 1820470,
+      "relative_path": "Assets/Resources/VN/EventCG/FT001_LineByLineLocked_Regen_20260611/ft001_cg_t05_l00_branch_mother_anxious.png"
+    },
+    {
+      "file": "ft001_cg_t05_choice_idle.png",
+      "camera": "CAM_A_FAMILY_WIDE",
+      "width": 1600,
+      "height": 900,
+      "sha256": "1c27f5dad62f24bd488357e97c2113391f7f280bce99e328ae74799a5a8f882f",
+      "bytes": 2053680,
+      "relative_path": "Assets/Resources/VN/EventCG/FT001_LineByLineLocked_Regen_20260611/ft001_cg_t05_choice_idle.png"
+    },
+    {
+      "file": "ft001_cg_t05_l01_teacher_concerned.png",
+      "camera": "CAM_E_TEACHER_MEDIUM",
+      "width": 1600,
+      "height": 900,
+      "sha256": "bcde7f8ecb309b3da652dea1d14e10c7890dfa6edcb6700728cfb8aa862a4c9a",
+      "bytes": 1807141,
+      "relative_path": "Assets/Resources/VN/EventCG/FT001_LineByLineLocked_Regen_20260611/ft001_cg_t05_l01_teacher_concerned.png"
+    },
+    {
+      "file": "ft001_cg_t05_l02_mother_softened.png",
+      "camera": "CAM_B_MOTHER_MEDIUM",
+      "width": 1600,
+      "height": 900,
+      "sha256": "3d516c3d2d3dfae9bc94c68618f8de6d768a55126370d5a4551e1baca68af4fa",
+      "bytes": 1776843,
+      "relative_path": "Assets/Resources/VN/EventCG/FT001_LineByLineLocked_Regen_20260611/ft001_cg_t05_l02_mother_softened.png"
+    },
+    {
+      "file": "ft001_cg_t05_l03_child_relieved.png",
+      "camera": "CAM_C_CHILD_MEDIUM",
+      "width": 1600,
+      "height": 900,
+      "sha256": "9b6a267e69f3af6f32713b1882cd17667ebe1052d68b78449a77a36f691fc3a5",
+      "bytes": 1802037,
+      "relative_path": "Assets/Resources/VN/EventCG/FT001_LineByLineLocked_Regen_20260611/ft001_cg_t05_l03_child_relieved.png"
+    },
+    {
+      "file": "ft001_cg_t05_l04_grandmother_softened.png",
+      "camera": "CAM_D_GRANDMOTHER_MEDIUM",
+      "width": 1600,
+      "height": 900,
+      "sha256": "ab3762e4f1ede18307c6939d2a2ae354c296a56b3d969086ccc6903b9035e49e",
+      "bytes": 1854679,
+      "relative_path": "Assets/Resources/VN/EventCG/FT001_LineByLineLocked_Regen_20260611/ft001_cg_t05_l04_grandmother_softened.png"
+    },
+    {
+      "file": "ft001_cg_t05_l05_teacher_softened.png",
+      "camera": "CAM_E_TEACHER_MEDIUM",
+      "width": 1600,
+      "height": 900,
+      "sha256": "b7887803085536340288d7f01410569100f9217c186a788ecbdb9a707dcfcca4",
+      "bytes": 1868210,
+      "relative_path": "Assets/Resources/VN/EventCG/FT001_LineByLineLocked_Regen_20260611/ft001_cg_t05_l05_teacher_softened.png"
+    },
+    {
+      "file": "ft001_cg_t05_l06_supervisor_reflective.png",
+      "camera": "CAM_F_SUPERVISOR_REVERSE",
+      "width": 1600,
+      "height": 900,
+      "sha256": "09e5738b2e8d56d537a30d514b4ffe7df57a5ed27658a538a93b3da8470ec295",
+      "bytes": 1790506,
+      "relative_path": "Assets/Resources/VN/EventCG/FT001_LineByLineLocked_Regen_20260611/ft001_cg_t05_l06_supervisor_reflective.png"
+    },
+    {
+      "file": "ft001_cg_t05_reaction_a_mother_softened.png",
+      "camera": "CAM_B_MOTHER_MEDIUM",
+      "width": 1600,
+      "height": 900,
+      "sha256": "ad94e64c2f76e5df685de60aef4d37a8a014c9ca5e1dda0d5e9b65b66774596f",
+      "bytes": 1849628,
+      "relative_path": "Assets/Resources/VN/EventCG/FT001_LineByLineLocked_Regen_20260611/ft001_cg_t05_reaction_a_mother_softened.png"
+    },
+    {
+      "file": "ft001_cg_t05_reaction_b_child_scared.png",
+      "camera": "CAM_C_CHILD_MEDIUM",
+      "width": 1600,
+      "height": 900,
+      "sha256": "a2d135ffd3ec8e0ba01b1a59866754be4dd29fb5b6ddfb6b7d6582fd5f5c8599",
+      "bytes": 1867342,
+      "relative_path": "Assets/Resources/VN/EventCG/FT001_LineByLineLocked_Regen_20260611/ft001_cg_t05_reaction_b_child_scared.png"
+    },
+    {
+      "file": "ft001_cg_t05_reaction_c_teacher_procedural.png",
+      "camera": "CAM_E_TEACHER_MEDIUM",
+      "width": 1600,
+      "height": 900,
+      "sha256": "e74bba1db03c46266e16041d2d66fc18b648b8c7b5dcb69a1e583fa0e9e7b6c2",
+      "bytes": 1801368,
+      "relative_path": "Assets/Resources/VN/EventCG/FT001_LineByLineLocked_Regen_20260611/ft001_cg_t05_reaction_c_teacher_procedural.png"
+    }
+  ]
+}
