@@ -2518,7 +2518,7 @@ public sealed class FamilyTherapyPracticumGame : MonoBehaviour
         titleLayout.childControlHeight = true;
         titleLayout.childForceExpandWidth = true;
         titleLayout.childForceExpandHeight = false;
-        var title = CreateText(titleBlock.transform, "가족치료 수련일지", 66, FontStyle.Bold, Color.white);
+        var title = CreateText(titleBlock.transform, "가족치료 시뮬레이션", 66, FontStyle.Bold, Color.white);
         title.alignment = TextAnchor.UpperLeft;
         title.gameObject.AddComponent<Shadow>().effectColor = new Color32(0, 0, 0, 210);
         var subtitle = CreateText(titleBlock.transform, "첫 회기: 등교를 멈춘 아침", 31, FontStyle.Bold, new Color32(255, 241, 212, 255));
@@ -3105,7 +3105,7 @@ public sealed class FamilyTherapyPracticumGame : MonoBehaviour
 
         VnDialogueLine line = currentVnIntroLines[currentVnIntroLineIndex];
         var root = CreateVnRoot("vn-introduction", GetVnSceneBackground(line.speakerId, line.expressionId, line.cgResourcePath));
-        CreateVnHud(root.transform, currentCase.id, "등장인물 소개", "소개 " + (currentVnIntroLineIndex + 1) + "/" + currentVnIntroLines.Count);
+        CreateVnHud(root.transform, currentCase.id, "등장인물 소개", "소개");
         CreateVnStage(root.transform, line.speakerId, line.expressionId);
         if (!string.IsNullOrEmpty(line.supervisorNote))
         {
@@ -3252,7 +3252,7 @@ public sealed class FamilyTherapyPracticumGame : MonoBehaviour
         currentVnLineIndex = Mathf.Clamp(currentVnLineIndex, 0, setupLines.Count - 1);
         VnDialogueLine line = setupLines[currentVnLineIndex];
         var root = CreateVnRoot("vn-session", GetVnSceneBackground(line.speakerId, line.expressionId, line.cgResourcePath));
-        CreateVnHud(root.transform, currentCase.id, turn.title, "회기 " + (currentTurn + 1) + "/" + SessionTurnCount);
+        CreateVnHud(root.transform, currentCase.id, turn.title, "회기 진행");
         CreateVnStage(root.transform, line.speakerId, line.expressionId);
         if (!string.IsNullOrEmpty(line.supervisorNote))
         {
@@ -3436,7 +3436,7 @@ public sealed class FamilyTherapyPracticumGame : MonoBehaviour
         ClearCanvas();
         var root = CreateVnRoot("session", "VN/Backgrounds/counseling_room_day");
         CreateAbsolutePanel(root.transform, "Generic Session Shade", new Color32(8, 11, 15, 138), Vector2.zero, Vector2.one, 0, 0, 0, 0);
-        CreateVnHud(root.transform, currentCase.id, GetSceneTitle(), "회기 " + (currentTurn + 1) + "/" + SessionTurnCount);
+        CreateVnHud(root.transform, currentCase.id, GetSceneTitle(), "회기 진행");
 
         var scene = CreateAbsoluteSkinnedPanel(root.transform, "Generic Session Scene", "VN/UI/supervisor_note_panel", new Color32(18, 22, 28, 226), new Vector2(0.055f, 0.43f), new Vector2(0.61f, 0.78f), 0, 0, 0, 0);
         var sceneLayout = scene.AddComponent<VerticalLayoutGroup>();
@@ -4620,7 +4620,7 @@ public sealed class FamilyTherapyPracticumGame : MonoBehaviour
         layout.childForceExpandWidth = true;
         layout.childForceExpandHeight = false;
         var nameplate = CreateSkinnedInlinePanel(box.transform, "Speaker Nameplate", "VN/UI/speaker_nameplate", new Color32(218, 231, 231, 255), 1, 0, -1, 28);
-        var nameText = CreateText(nameplate.transform, speakerName + "  " + index + "/" + total, 16, FontStyle.Bold, Accent);
+        var nameText = CreateText(nameplate.transform, speakerName, 16, FontStyle.Bold, Accent);
         nameText.alignment = TextAnchor.MiddleLeft;
         Stretch(nameText.gameObject, 16, 0, 16, 0);
         var body = CreateText(box.transform, content, 21, FontStyle.Bold, Ink);
