@@ -4065,12 +4065,7 @@ public sealed class FamilyTherapyPracticumGame : MonoBehaviour
         ClearCanvas();
         var root = CreateVnRoot("supervision", "VN/Backgrounds/counseling_room_day");
         CreateAbsolutePanel(root.transform, "Supervision Shade", new Color32(8, 11, 15, 132), Vector2.zero, Vector2.one, 0, 0, 0, 0);
-        if (currentCase != null && currentCase.id == "FT-001")
-        {
-            string supervisorCg = last.score >= 80 ? Ft001CgPath("intro_05_supervisor_explaining") : Ft001CgPath("t01_l06_supervisor_explaining");
-            CreateAbsoluteEventCg(root.transform, "FT001 Supervision CG", supervisorCg, new Vector2(0.64f, 0.14f), new Vector2(0.94f, 0.86f), 245);
-        }
-        else
+        if (currentCase == null || currentCase.id != "FT-001")
         {
             CreateAbsoluteVnPortrait(root.transform, "supervisor_" + recommended.id, last.score >= 80 ? "approving" : "reflective", new Vector2(0.62f, 0.15f), new Vector2(0.90f, 0.82f), 225);
         }
@@ -4086,7 +4081,7 @@ public sealed class FamilyTherapyPracticumGame : MonoBehaviour
         reportLayout.childForceExpandHeight = false;
         var title = CreateText(report.transform, "슈퍼비전 회고", 24, FontStyle.Bold, Ink);
         SetLayout(title.gameObject, 1, 0, -1, 42);
-        var summary = CreateText(report.transform, currentCase.id + " · " + currentCase.familyType + " · 추천 렌즈 " + recommended.name, 16, FontStyle.Bold, MutedInk);
+        var summary = CreateText(report.transform, currentCase.id + " · " + currentCase.familyType + " · 가족 반응 복기", 16, FontStyle.Bold, MutedInk);
         SetLayout(summary.gameObject, 1, 0, -1, 30);
         var scoreLine = CreateText(report.transform, "보조 지표: 점수 " + last.score + "/100 · 신뢰 " + trustScore + " · 안전 " + safetyScore + " · 통찰 " + insightScore, 15, FontStyle.Bold, last.score >= 80 ? Good : last.score >= 60 ? Warm : Bad);
         SetLayout(scoreLine.gameObject, 1, 0, -1, 30);
