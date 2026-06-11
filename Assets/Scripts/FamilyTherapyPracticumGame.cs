@@ -2526,20 +2526,14 @@ public sealed class FamilyTherapyPracticumGame : MonoBehaviour
         var tagline = CreateText(titleBlock.transform, "문제를 가진 사람을 찾는 대신, 가족이 반복하는 장면을 읽습니다.", 22, FontStyle.Normal, new Color32(226, 232, 236, 255));
         tagline.gameObject.AddComponent<Shadow>().effectColor = new Color32(0, 0, 0, 180);
 
-        var episodePanel = CreateAbsolutePanel(root.transform, "Episode Slate", new Color32(17, 21, 28, 170), new Vector2(0.06f, 0.33f), new Vector2(0.47f, 0.50f), 0, 0, 0, 0);
-        var episodeLayout = episodePanel.AddComponent<VerticalLayoutGroup>();
-        episodeLayout.padding = new RectOffset(24, 24, 18, 18);
-        episodeLayout.spacing = 5;
-        episodeLayout.childControlWidth = true;
-        episodeLayout.childControlHeight = true;
-        episodeLayout.childForceExpandWidth = true;
-        episodeLayout.childForceExpandHeight = false;
-        FamilyCase featured = currentCase ?? cases.First(c => c.id == "FT-001");
-        CreateText(episodePanel.transform, "오늘의 수련 파일", 18, FontStyle.Bold, new Color32(255, 241, 212, 255));
-        CreateText(episodePanel.transform, featured.id + " · " + featured.presentingProblem, 20, FontStyle.Bold, new Color32(226, 232, 236, 255));
-        CreateText(episodePanel.transform, "담당: " + GetSupervisorForTheory(featured.recommendedTheoryId).name, 15, FontStyle.Normal, new Color32(198, 214, 220, 255));
+        CreateAbsolutePanel(root.transform, "Title Accent Rule", Accent, new Vector2(0.062f, 0.552f), new Vector2(0.24f, 0.558f), 0, 0, 0, 0);
+        var statusLine = CreateAbsolutePanel(root.transform, "Title Status Line", new Color32(0, 0, 0, 0), new Vector2(0.06f, 0.50f), new Vector2(0.56f, 0.54f), 0, 0, 0, 0);
+        var statusText = CreateText(statusLine.transform, "사례 001 · 등교를 멈춘 아침", 19, FontStyle.Bold, new Color32(210, 224, 228, 230));
+        statusText.alignment = TextAnchor.MiddleLeft;
+        statusText.gameObject.AddComponent<Shadow>().effectColor = new Color32(0, 0, 0, 185);
+        Stretch(statusText.gameObject, 0, 0, 0, 0);
 
-        var commandPanel = CreateAbsoluteSkinnedPanel(root.transform, "Title Command Menu", "VN/UI/case_file_panel", new Color32(18, 21, 27, 218), new Vector2(0.67f, 0.12f), new Vector2(0.92f, 0.74f), 0, 0, 0, 0);
+        var commandPanel = CreateAbsoluteSkinnedPanel(root.transform, "Title Command Menu", "VN/UI/case_file_panel", new Color32(18, 21, 27, 218), new Vector2(0.67f, 0.14f), new Vector2(0.92f, 0.76f), 0, 0, 0, 0);
         var commandLayout = commandPanel.AddComponent<VerticalLayoutGroup>();
         commandLayout.padding = new RectOffset(20, 20, 18, 18);
         commandLayout.spacing = 8;
