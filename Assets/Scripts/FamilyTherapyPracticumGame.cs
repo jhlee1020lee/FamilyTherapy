@@ -2820,10 +2820,8 @@ public sealed class FamilyTherapyPracticumGame : MonoBehaviour
     {
         ClearCanvas();
         var caseData = cases.First(c => c.id == "FT-001");
-        var root = CreateVnRoot("campaign-briefing", "VN/Backgrounds/counseling_room_day");
+        var root = CreateVnRoot("campaign-briefing", Ft001CgPath("t01_choice_idle"));
         CreateAbsolutePanel(root.transform, "Briefing Shade", new Color32(8, 11, 15, 128), Vector2.zero, Vector2.one, 0, 0, 0, 0);
-        CreateAbsoluteVnPortrait(root.transform, "ft001_mother", "neutral", new Vector2(0.57f, 0.12f), new Vector2(0.79f, 0.86f), 238);
-        CreateAbsoluteVnPortrait(root.transform, "ft001_child", "anxious", new Vector2(0.75f, 0.12f), new Vector2(0.93f, 0.70f), 230);
 
         var panel = CreateAbsoluteSkinnedPanel(root.transform, "First Session Briefing", "VN/UI/case_file_panel", new Color32(238, 232, 218, 246), new Vector2(0.07f, 0.12f), new Vector2(0.58f, 0.84f), 0, 0, 0, 0);
         var layout = panel.AddComponent<VerticalLayoutGroup>();
@@ -2873,14 +2871,9 @@ public sealed class FamilyTherapyPracticumGame : MonoBehaviour
         }
 
         ClearCanvas();
-        var root = CreateVnRoot("case-intake", "VN/Backgrounds/counseling_room_day");
+        var root = CreateVnRoot("case-intake", currentCase.id == "FT-001" ? Ft001CgPath("t01_choice_idle") : "VN/Backgrounds/counseling_room_day");
         CreateAbsolutePanel(root.transform, "Case File Shade", new Color32(8, 11, 15, 128), Vector2.zero, Vector2.one, 0, 0, 0, 0);
         CreateVnHud(root.transform, currentCase.id, "사례 파일", "회기 준비");
-        if (currentCase.id == "FT-001")
-        {
-            CreateAbsoluteVnPortrait(root.transform, "ft001_mother", "neutral", new Vector2(0.54f, 0.14f), new Vector2(0.73f, 0.78f), 228);
-            CreateAbsoluteVnPortrait(root.transform, "ft001_child", "anxious", new Vector2(0.70f, 0.15f), new Vector2(0.88f, 0.70f), 224);
-        }
 
         var file = CreateAbsoluteSkinnedPanel(root.transform, "Case File", "VN/UI/case_file_panel", new Color32(238, 232, 218, 246), new Vector2(0.055f, 0.09f), new Vector2(0.60f, 0.82f), 0, 0, 0, 0);
         var fileLayout = file.AddComponent<VerticalLayoutGroup>();
@@ -3914,6 +3907,12 @@ public sealed class FamilyTherapyPracticumGame : MonoBehaviour
 
     private string GetVnEndingBackground(string caseId, string endingId)
     {
+        if (caseId == "FT-001")
+        {
+            string ft001Ending = GetFt001EndingBackground(endingId);
+            if (LoadVnTexture(ft001Ending) != null) return ft001Ending;
+        }
+
         string compactId = string.IsNullOrEmpty(caseId) ? "ft000" : caseId.Replace("-", "").ToLowerInvariant();
         string endingKey = CompactEndingKey(endingId);
         string[] candidates =
@@ -3928,6 +3927,17 @@ public sealed class FamilyTherapyPracticumGame : MonoBehaviour
             if (LoadVnTexture(candidate) != null) return candidate;
         }
         return "VN/Backgrounds/counseling_room_day";
+    }
+
+    private static string GetFt001EndingBackground(string endingId)
+    {
+        string id = endingId ?? "";
+        if (id.IndexOf("_A_", StringComparison.OrdinalIgnoreCase) >= 0) return Ft001CgPath("t05_reaction_a_mother_softened");
+        if (id.IndexOf("_B_repaired", StringComparison.OrdinalIgnoreCase) >= 0) return Ft001CgPath("t05_l03_child_relieved");
+        if (id.IndexOf("_B_partial", StringComparison.OrdinalIgnoreCase) >= 0) return Ft001CgPath("t05_l02_mother_softened");
+        if (id.IndexOf("_C_", StringComparison.OrdinalIgnoreCase) >= 0) return Ft001CgPath("t05_reaction_b_child_scared");
+        if (id.IndexOf("_D_", StringComparison.OrdinalIgnoreCase) >= 0) return Ft001CgPath("t05_reaction_c_teacher_procedural");
+        return Ft001CgPath("t05_choice_idle");
     }
 
     private static string CompactEndingKey(string endingId)
@@ -4055,7 +4065,15 @@ public sealed class FamilyTherapyPracticumGame : MonoBehaviour
         ClearCanvas();
         var root = CreateVnRoot("supervision", "VN/Backgrounds/counseling_room_day");
         CreateAbsolutePanel(root.transform, "Supervision Shade", new Color32(8, 11, 15, 132), Vector2.zero, Vector2.one, 0, 0, 0, 0);
-        CreateAbsoluteVnPortrait(root.transform, "supervisor_" + recommended.id, last.score >= 80 ? "approving" : "reflective", new Vector2(0.62f, 0.15f), new Vector2(0.90f, 0.82f), 225);
+        if (currentCase != null && currentCase.id == "FT-001")
+        {
+            string supervisorCg = last.score >= 80 ? Ft001CgPath("intro_05_supervisor_explaining") : Ft001CgPath("t01_l06_supervisor_explaining");
+            CreateAbsoluteEventCg(root.transform, "FT001 Supervision CG", supervisorCg, new Vector2(0.64f, 0.14f), new Vector2(0.94f, 0.86f), 245);
+        }
+        else
+        {
+            CreateAbsoluteVnPortrait(root.transform, "supervisor_" + recommended.id, last.score >= 80 ? "approving" : "reflective", new Vector2(0.62f, 0.15f), new Vector2(0.90f, 0.82f), 225);
+        }
         CreateVnHud(root.transform, currentCase.id, "슈퍼비전 회고", "회기 종료");
 
         var report = CreateAbsoluteSkinnedPanel(root.transform, "Training Report", "VN/UI/session_result_sheet", new Color32(238, 232, 218, 246), new Vector2(0.055f, 0.055f), new Vector2(0.66f, 0.88f), 0, 0, 0, 0);
@@ -4652,6 +4670,30 @@ public sealed class FamilyTherapyPracticumGame : MonoBehaviour
         var fitter = portrait.AddComponent<AspectRatioFitter>();
         fitter.aspectMode = AspectRatioFitter.AspectMode.FitInParent;
         fitter.aspectRatio = texture.width / Mathf.Max(1f, texture.height);
+    }
+
+    private void CreateAbsoluteEventCg(Transform parent, string name, string resourcePath, Vector2 anchorMin, Vector2 anchorMax, byte alpha)
+    {
+        Texture2D texture = LoadVnTexture(resourcePath);
+        if (texture == null) return;
+
+        var holder = CreateAbsolutePanel(parent, name, new Color32(0, 0, 0, 0), anchorMin, anchorMax, 0, 0, 0, 0);
+        holder.GetComponent<Image>().raycastTarget = false;
+
+        var imageObject = new GameObject("Event CG Image");
+        imageObject.transform.SetParent(holder.transform, false);
+        var rect = imageObject.AddComponent<RectTransform>();
+        rect.anchorMin = Vector2.zero;
+        rect.anchorMax = Vector2.one;
+        rect.offsetMin = Vector2.zero;
+        rect.offsetMax = Vector2.zero;
+
+        var raw = imageObject.AddComponent<RawImage>();
+        raw.texture = texture;
+        raw.color = new Color32(255, 255, 255, alpha);
+        raw.raycastTarget = false;
+        float targetAspect = (anchorMax.x - anchorMin.x) * 16f / Mathf.Max(0.001f, (anchorMax.y - anchorMin.y) * 9f);
+        raw.uvRect = GetCoverUvRect(texture.width / Mathf.Max(1f, texture.height), targetAspect);
     }
 
     private static float GetCharacterPortraitWidthScale(string characterId)
