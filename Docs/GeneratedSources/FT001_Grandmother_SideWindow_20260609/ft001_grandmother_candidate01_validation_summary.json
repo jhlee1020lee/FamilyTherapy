@@ -1,0 +1,34 @@
+{
+  "expected": 6,
+  "present": 6,
+  "missing": [],
+  "missing_meta": [],
+  "bad_alpha": [],
+  "bad_transparent_corners": [],
+  "sizes": {
+    "neutral": [
+      1024,
+      1536
+    ],
+    "critical": [
+      1024,
+      1536
+    ],
+    "worried": [
+      1024,
+      1536
+    ],
+    "defensive": [
+      1024,
+      1536
+    ],
+    "softened": [
+      1024,
+      1536
+    ],
+    "stubborn": [
+      1024,
+      1536
+    ]
+  }
+}

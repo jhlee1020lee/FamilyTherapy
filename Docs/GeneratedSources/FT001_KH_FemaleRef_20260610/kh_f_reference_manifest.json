@@ -1,0 +1,50 @@
+{
+  "version": 1,
+  "created_date": "2026-06-10",
+  "purpose": "Replacement Kim Hyesung reference set after the FT-001 character lock changed supervisor_system to a female supervisor/therapist.",
+  "final_reference_size": [1600, 900],
+  "reference_folder": "Docs/GeneratedSources/FT001_KH_FemaleRef_20260610/ref",
+  "source_folder": "Docs/GeneratedSources/FT001_KH_FemaleRef_20260610/source",
+  "contact_sheet": "Docs/GeneratedSources/FT001_KH_FemaleRef_20260610/kh_f_reference_contact_sheet_20260610.png",
+  "references": [
+    {
+      "file": "kh_f_identity_1600x900.png",
+      "role": "primary identity and expression reference",
+      "priority": "highest"
+    },
+    {
+      "file": "kh_f_speaking_1600x900.png",
+      "role": "primary solo or centered speaking reference",
+      "priority": "highest"
+    },
+    {
+      "file": "kh_f_opposite_seating_1600x900.png",
+      "role": "supervisor across-from-family seating composition reference only",
+      "priority": "composition_only"
+    }
+  ],
+  "identity_lock": {
+    "id": "supervisor_system",
+    "name": "김혜성",
+    "role": "family-systems supervisor",
+    "gender": "female",
+    "must_not_be": [
+      "male therapist",
+      "Seo Geonchang",
+      "school teacher",
+      "family member",
+      "fifth participant in the family row"
+    ]
+  },
+  "supersedes_for_kim_hyesung": [
+    "Docs/GeneratedSources/FT001_ReferenceLocked_20260609/references/ft001_ref_supervisor_system_kim_hyesung_1600x900.png",
+    "Docs/GeneratedSources/FT001_ReferenceLocked_20260609/references/ft001_ref_supervisor_view_master_1600x900.png",
+    "Docs/GeneratedSources/FT001_ReferenceLocked_20260609/references/ft001_ref_supervisor_identity_1600x900.png",
+    "Docs/GeneratedSources/FT001_ReferenceLocked_20260609/references/ft001_ref_supervisor_expression_sheet_1600x900.png"
+  ],
+  "notes": [
+    "Use kh_f_identity_1600x900.png and kh_f_speaking_1600x900.png as the face, clothing, and role authority.",
+    "Use kh_f_opposite_seating_1600x900.png only to communicate that Kim Hyesung sits across from the four session-side figures.",
+    "The old FT001_ReferenceLocked supervisor files depict a male supervisor and are no longer valid for Kim Hyesung."
+  ]
+}

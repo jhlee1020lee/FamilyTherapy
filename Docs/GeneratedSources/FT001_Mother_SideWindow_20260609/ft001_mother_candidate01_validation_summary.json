@@ -1,0 +1,42 @@
+{
+  "expected": 8,
+  "present": 8,
+  "missing": [],
+  "missing_meta": [],
+  "bad_alpha": [],
+  "bad_transparent_corners": [],
+  "sizes": {
+    "neutral": [
+      1024,
+      1536
+    ],
+    "anxious": [
+      1024,
+      1536
+    ],
+    "defensive": [
+      1024,
+      1536
+    ],
+    "exhausted": [
+      1024,
+      1536
+    ],
+    "softened": [
+      1024,
+      1536
+    ],
+    "worried": [
+      1024,
+      1536
+    ],
+    "tearful": [
+      1024,
+      1536
+    ],
+    "listening": [
+      1024,
+      1536
+    ]
+  }
+}

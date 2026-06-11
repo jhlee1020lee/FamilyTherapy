@@ -1,0 +1,80 @@
+[
+  {
+    "expression": "neutral",
+    "source_file": "ft001_grandmother_neutral_phase1.png",
+    "exists": true,
+    "meta_exists": true,
+    "mode": "RGBA",
+    "size": [
+      860,
+      1828
+    ],
+    "has_alpha": true,
+    "transparent_corners": false
+  },
+  {
+    "expression": "critical",
+    "source_file": "ft001_grandmother_critical_phase1.png",
+    "exists": true,
+    "meta_exists": true,
+    "mode": "RGBA",
+    "size": [
+      887,
+      1774
+    ],
+    "has_alpha": true,
+    "transparent_corners": true
+  },
+  {
+    "expression": "worried",
+    "source_file": "ft001_grandmother_worried_phase1.png",
+    "exists": true,
+    "meta_exists": true,
+    "mode": "RGBA",
+    "size": [
+      914,
+      1721
+    ],
+    "has_alpha": true,
+    "transparent_corners": true
+  },
+  {
+    "expression": "defensive",
+    "source_file": "ft001_grandmother_defensive_phase1.png",
+    "exists": true,
+    "meta_exists": true,
+    "mode": "RGBA",
+    "size": [
+      916,
+      1717
+    ],
+    "has_alpha": true,
+    "transparent_corners": true
+  },
+  {
+    "expression": "softened",
+    "source_file": "ft001_grandmother_softened_phase1.png",
+    "exists": true,
+    "meta_exists": true,
+    "mode": "RGBA",
+    "size": [
+      887,
+      1774
+    ],
+    "has_alpha": true,
+    "transparent_corners": true
+  },
+  {
+    "expression": "stubborn",
+    "source_file": "ft001_grandmother_stubborn_phase1.png",
+    "exists": true,
+    "meta_exists": true,
+    "mode": "RGBA",
+    "size": [
+      1024,
+      1536
+    ],
+    "has_alpha": true,
+    "transparent_corners": true
+  }
+]

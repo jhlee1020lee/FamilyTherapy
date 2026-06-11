@@ -1,0 +1,90 @@
+{
+  "version": 1,
+  "created_date": "2026-06-10",
+  "source_command": "Docs/FT001_LINE_BY_LINE_LOCKED_CG_COMMAND_2026-06-10.md",
+  "coordination_brief": "Docs/FT001_IMAGE_PIPELINE_COORDINATION_BRIEF_2026-06-10.md",
+  "final_runtime_folder": "Assets/Resources/VN/EventCG/FT001_LineByLineLocked",
+  "source_archive_folder": "Docs/GeneratedSources/FT001_LineByLineLocked_20260610/source",
+  "contact_sheet": "Docs/GeneratedSources/FT001_LineByLineLocked_20260610/contact_sheets/ft001_lbl_all_050_contact_sheet_20260610.png",
+  "turn_contact_sheets": [
+    "Docs/GeneratedSources/FT001_LineByLineLocked_20260610/contact_sheets/ft001_lbl_turn01_contact_sheet.png",
+    "Docs/GeneratedSources/FT001_LineByLineLocked_20260610/contact_sheets/ft001_lbl_turn02_contact_sheet.png",
+    "Docs/GeneratedSources/FT001_LineByLineLocked_20260610/contact_sheets/ft001_lbl_turn03_contact_sheet.png",
+    "Docs/GeneratedSources/FT001_LineByLineLocked_20260610/contact_sheets/ft001_lbl_turn04_contact_sheet.png",
+    "Docs/GeneratedSources/FT001_LineByLineLocked_20260610/contact_sheets/ft001_lbl_turn05_contact_sheet.png"
+  ],
+  "masters": [
+    "Docs/GeneratedSources/FT001_LineByLineLocked_20260610/source/masters/family_master_shot_1600x900.png",
+    "Docs/GeneratedSources/FT001_LineByLineLocked_20260610/source/masters/hyesung_master_shot_1600x900.png"
+  ],
+  "final_size": [
+    1600,
+    900
+  ],
+  "final_count": 50,
+  "final_cgs": [
+    "ft001_cg_t01_choice_idle.png",
+    "ft001_cg_t01_l01_mother_neutral.png",
+    "ft001_cg_t01_l02_child_anxious.png",
+    "ft001_cg_t01_l03_mother_worried.png",
+    "ft001_cg_t01_l04_child_quiet.png",
+    "ft001_cg_t01_l05_teacher_concerned.png",
+    "ft001_cg_t01_l06_supervisor_explaining.png",
+    "ft001_cg_t01_reaction_a_mother_softened.png",
+    "ft001_cg_t01_reaction_b_child_withdrawn.png",
+    "ft001_cg_t01_reaction_c_teacher_procedural.png",
+    "ft001_cg_t02_choice_idle.png",
+    "ft001_cg_t02_l01_mother_defensive.png",
+    "ft001_cg_t02_l02_child_quiet.png",
+    "ft001_cg_t02_l03_mother_exhausted.png",
+    "ft001_cg_t02_l04_child_hesitant.png",
+    "ft001_cg_t02_l05_teacher_procedural.png",
+    "ft001_cg_t02_l06_supervisor_explaining.png",
+    "ft001_cg_t02_reaction_a_mother_softened.png",
+    "ft001_cg_t02_reaction_b_mother_defensive.png",
+    "ft001_cg_t02_reaction_c_child_withdrawn.png",
+    "ft001_cg_t03_choice_idle.png",
+    "ft001_cg_t03_l01_grandmother_critical.png",
+    "ft001_cg_t03_l02_mother_exhausted.png",
+    "ft001_cg_t03_l03_grandmother_worried.png",
+    "ft001_cg_t03_l04_mother_tearful.png",
+    "ft001_cg_t03_l05_child_scared.png",
+    "ft001_cg_t03_l06_supervisor_questioning.png",
+    "ft001_cg_t03_reaction_a_grandmother_softened.png",
+    "ft001_cg_t03_reaction_b_grandmother_defensive.png",
+    "ft001_cg_t03_reaction_c_child_hesitant.png",
+    "ft001_cg_t04_choice_idle.png",
+    "ft001_cg_t04_l01_supervisor_questioning.png",
+    "ft001_cg_t04_l02_mother_worried.png",
+    "ft001_cg_t04_l03_child_quiet.png",
+    "ft001_cg_t04_l04_mother_listening.png",
+    "ft001_cg_t04_l05_child_hesitant.png",
+    "ft001_cg_t04_l06_supervisor_explaining.png",
+    "ft001_cg_t04_reaction_a_supervisor_approving.png",
+    "ft001_cg_t04_reaction_b_mother_anxious.png",
+    "ft001_cg_t04_reaction_c_child_withdrawn.png",
+    "ft001_cg_t05_choice_idle.png",
+    "ft001_cg_t05_l01_teacher_concerned.png",
+    "ft001_cg_t05_l02_mother_softened.png",
+    "ft001_cg_t05_l03_child_relieved.png",
+    "ft001_cg_t05_l04_grandmother_softened.png",
+    "ft001_cg_t05_l05_teacher_softened.png",
+    "ft001_cg_t05_l06_supervisor_reflective.png",
+    "ft001_cg_t05_reaction_a_mother_softened.png",
+    "ft001_cg_t05_reaction_b_child_scared.png",
+    "ft001_cg_t05_reaction_c_teacher_procedural.png"
+  ],
+  "generation_mode": "built-in image_gen, one prompt per shot where possible; final normalization used aspect-ratio-preserving scale plus center crop",
+  "fallback_notes": [
+    {
+      "file": "ft001_cg_t04_reaction_c_child_withdrawn.png",
+      "note": "New generation for this specific reaction repeatedly tripped safety filtering; reused the accepted ft001_cg_t02_reaction_c_child_withdrawn.png visual to preserve locked composition and complete the 50-file set."
+    }
+  ],
+  "validation_summary": {
+    "dimensions": "50/50 final CGs verified at 1600x900",
+    "family_shots": "Visual contact sheets reviewed: family shots keep four seated figures in the locked order.",
+    "hyesung_shots": "Visual contact sheets reviewed: Kim Hyesung appears as a female supervisor, not male, not teacher, not family member.",
+    "text_ui_watermark": "No visible text, UI, watermark, caption, or speech bubble found during contact sheet review."
+  }
+}

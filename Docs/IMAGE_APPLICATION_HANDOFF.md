@@ -64,8 +64,9 @@ Assets/Resources/VN/Characters/Chapter01/FT002/ft002_mother_softened.png
 
 - `Assets/Resources/VN` PNG: 762장
 - 런타임 캐릭터 프로필: 108개
-- 필수 자산: 44/44
-- 누락 필수 자산: 없음
+- 레거시 VN 캐릭터/UI 필수 자산: 44/44
+- 레거시 VN 캐릭터/UI 누락 필수 자산: 없음
+- FT002~FT010 EventCG 슬롯 감사: 385장 필요 / 21장 사용 가능 / 364장 누락
 - VN 플레이 가능 사례: 60/60
 - 최신 검증 로그:
   - `Logs/corecases_asset_apply_build.log`
@@ -136,3 +137,7 @@ procedural, explaining, questioning, warning, approving, reflective, supportive
   - `missingVnAssets=[]`
   - `vnPlayableCaseCount=60`
   - `commercialCoreVnScriptCount=24`
+- FT002~FT010 VN data audit
+  - `routeSimulationAudit.allRoutesPassed=true`
+  - 완성 판정 시 `availableCgSlotCount == requiredCgSlotCount`
+  - 완성 판정 시 `missingCgSlotCount == 0`

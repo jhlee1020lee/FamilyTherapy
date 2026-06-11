@@ -1,0 +1,41 @@
+[
+  {
+    "expression": "worried",
+    "source_file": "ft001_mother_worried_phase1.png",
+    "exists": true,
+    "meta_exists": true,
+    "mode": "RGBA",
+    "size": [
+      862,
+      1825
+    ],
+    "has_alpha": true,
+    "transparent_corners": true
+  },
+  {
+    "expression": "tearful",
+    "source_file": "ft001_mother_tearful_phase1.png",
+    "exists": true,
+    "meta_exists": true,
+    "mode": "RGBA",
+    "size": [
+      880,
+      1786
+    ],
+    "has_alpha": true,
+    "transparent_corners": true
+  },
+  {
+    "expression": "listening",
+    "source_file": "ft001_mother_listening_phase1.png",
+    "exists": true,
+    "meta_exists": true,
+    "mode": "RGBA",
+    "size": [
+      914,
+      1721
+    ],
+    "has_alpha": true,
+    "transparent_corners": true
+  }
+]

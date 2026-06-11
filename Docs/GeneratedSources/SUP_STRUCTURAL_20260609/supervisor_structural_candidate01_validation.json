@@ -1,0 +1,80 @@
+[
+  {
+    "expression": "neutral",
+    "file": "supervisor_structural_neutral_candidate01.png",
+    "exists": true,
+    "meta_exists": true,
+    "mode": "RGBA",
+    "size": [
+      1024,
+      1535
+    ],
+    "has_alpha": true,
+    "transparent_corners": true
+  },
+  {
+    "expression": "explaining",
+    "file": "supervisor_structural_explaining_candidate01.png",
+    "exists": true,
+    "meta_exists": true,
+    "mode": "RGBA",
+    "size": [
+      1024,
+      1536
+    ],
+    "has_alpha": true,
+    "transparent_corners": true
+  },
+  {
+    "expression": "questioning",
+    "file": "supervisor_structural_questioning_candidate01.png",
+    "exists": true,
+    "meta_exists": true,
+    "mode": "RGBA",
+    "size": [
+      1024,
+      1536
+    ],
+    "has_alpha": true,
+    "transparent_corners": true
+  },
+  {
+    "expression": "warning",
+    "file": "supervisor_structural_warning_candidate01.png",
+    "exists": true,
+    "meta_exists": true,
+    "mode": "RGBA",
+    "size": [
+      1023,
+      1537
+    ],
+    "has_alpha": true,
+    "transparent_corners": true
+  },
+  {
+    "expression": "approving",
+    "file": "supervisor_structural_approving_candidate01.png",
+    "exists": true,
+    "meta_exists": true,
+    "mode": "RGBA",
+    "size": [
+      1024,
+      1536
+    ],
+    "has_alpha": true,
+    "transparent_corners": true
+  },
+  {
+    "expression": "reflective",
+    "file": "supervisor_structural_reflective_candidate01.png",
+    "exists": true,
+    "meta_exists": true,
+    "mode": "RGBA",
+    "size": [
+      1024,
+      1536
+    ],
+    "has_alpha": true,
+    "transparent_corners": true
+  }
+]

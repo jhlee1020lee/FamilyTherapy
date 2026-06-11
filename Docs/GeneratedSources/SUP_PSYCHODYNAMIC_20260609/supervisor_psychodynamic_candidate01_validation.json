@@ -1,0 +1,80 @@
+[
+  {
+    "expression": "neutral",
+    "file": "supervisor_psychodynamic_neutral_candidate01.png",
+    "exists": true,
+    "meta_exists": true,
+    "mode": "RGBA",
+    "size": [
+      1023,
+      1537
+    ],
+    "has_alpha": true,
+    "transparent_corners": true
+  },
+  {
+    "expression": "explaining",
+    "file": "supervisor_psychodynamic_explaining_candidate01.png",
+    "exists": true,
+    "meta_exists": true,
+    "mode": "RGBA",
+    "size": [
+      1024,
+      1535
+    ],
+    "has_alpha": true,
+    "transparent_corners": true
+  },
+  {
+    "expression": "questioning",
+    "file": "supervisor_psychodynamic_questioning_candidate01.png",
+    "exists": true,
+    "meta_exists": true,
+    "mode": "RGBA",
+    "size": [
+      1023,
+      1537
+    ],
+    "has_alpha": true,
+    "transparent_corners": true
+  },
+  {
+    "expression": "warning",
+    "file": "supervisor_psychodynamic_warning_candidate01.png",
+    "exists": true,
+    "meta_exists": true,
+    "mode": "RGBA",
+    "size": [
+      1024,
+      1536
+    ],
+    "has_alpha": true,
+    "transparent_corners": true
+  },
+  {
+    "expression": "approving",
+    "file": "supervisor_psychodynamic_approving_candidate01.png",
+    "exists": true,
+    "meta_exists": true,
+    "mode": "RGBA",
+    "size": [
+      1024,
+      1536
+    ],
+    "has_alpha": true,
+    "transparent_corners": true
+  },
+  {
+    "expression": "reflective",
+    "file": "supervisor_psychodynamic_reflective_candidate01.png",
+    "exists": true,
+    "meta_exists": true,
+    "mode": "RGBA",
+    "size": [
+      1024,
+      1536
+    ],
+    "has_alpha": true,
+    "transparent_corners": true
+  }
+]

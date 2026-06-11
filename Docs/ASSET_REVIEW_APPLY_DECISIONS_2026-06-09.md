@@ -16,6 +16,17 @@
 
 아래 파일들은 현재 런타임 리소스로 적용한다. 파일명은 `FamilyTherapyPracticumGame.cs`의 `RequiredVnAssetPaths` 및 VN 대사 스크립트의 expression id와 맞는다.
 
+### 2026-06-09 Runtime Correction
+
+사용자 확인 후 `이주형`과 `서건창`은 남성 캐릭터여야 함을 재확인했다. 기존 `ft001_child_*`, `ft001_teacher_*` 후보는 접촉 시트와 런타임 화면에서 여성처럼 보여 최종 적용 판정을 취소한다.
+
+긴급 교정으로 아래 남성 neutral 스프라이트를 추가하고, 런타임 기본 에셋 경로를 이 파일들로 우선 연결한다.
+
+- `ft001_child_male_neutral_phase1.png`
+- `ft001_teacher_male_neutral_phase1.png`
+
+최종 작업에서는 `ft001_child_<expression>_phase1.png` 8장 전체와 `ft001_teacher_<expression>_phase1.png` 4장 전체를 남자 아이/남자 담임교사로 다시 생성해 교체해야 한다.
+
 ### FT-001 Mother
 
 - `ft001_mother_neutral_phase0.png`
@@ -40,7 +51,7 @@
 - `ft001_child_scared_phase1.png`
 - `ft001_child_withdrawn_phase1.png`
 
-판정: 적용. 포즈와 표정 변화가 가장 명확한 세트이며, VN 장면에서 불안/침묵/위축/완화 반응을 구분하기 좋다.
+판정: 최종 적용 취소. 표정 기능은 있었지만 성별이 잘못 읽힌다. 현재 런타임은 `ft001_child_male_neutral_phase1.png`를 임시 기본 컷으로 사용한다.
 
 ### FT-001 Grandmother
 
@@ -60,7 +71,7 @@
 - `ft001_teacher_procedural_phase1.png`
 - `ft001_teacher_softened_phase1.png`
 
-판정: 적용. 교사 역할이 명확하고, `procedural`은 클립보드 소품으로 기능 차이가 분명하다.
+판정: 최종 적용 취소. 교사 역할은 읽히지만 성별이 잘못 읽힌다. 현재 런타임은 `ft001_teacher_male_neutral_phase1.png`를 임시 기본 컷으로 사용한다.
 
 ### Runtime UI Skins
 
@@ -93,6 +104,7 @@
 
 ### Child Set
 
+- 기존 child 세트는 성별 오류로 최종 재생성이 필요하다.
 - `anxious`, `scared`, `quiet`는 감정 방향이 비슷해 작은 크기에서는 일부 겹쳐 보일 수 있다.
 - `withdrawn`은 포즈가 강해서 좋지만, 같은 아이의 체형/얼굴 비율이 다른 컷보다 약간 작게 느껴진다.
 
@@ -122,6 +134,7 @@
 
 ### Teacher Set
 
+- 기존 teacher 세트는 성별 오류로 최종 재생성이 필요하다.
 - `neutral`, `concerned`, `softened`는 좋은 기본 세트지만 표정 차이가 약하다.
 - `procedural`은 소품 덕분에 명확하므로 유지 가치가 높다.
 

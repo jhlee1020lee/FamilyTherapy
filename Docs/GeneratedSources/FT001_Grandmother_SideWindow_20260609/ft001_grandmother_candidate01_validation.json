@@ -1,0 +1,80 @@
+[
+  {
+    "expression": "neutral",
+    "file": "ft001_grandmother_neutral_phase1_candidate01.png",
+    "exists": true,
+    "meta_exists": true,
+    "mode": "RGBA",
+    "size": [
+      1024,
+      1536
+    ],
+    "has_alpha": true,
+    "transparent_corners": true
+  },
+  {
+    "expression": "critical",
+    "file": "ft001_grandmother_critical_phase1_candidate01.png",
+    "exists": true,
+    "meta_exists": true,
+    "mode": "RGBA",
+    "size": [
+      1024,
+      1536
+    ],
+    "has_alpha": true,
+    "transparent_corners": true
+  },
+  {
+    "expression": "worried",
+    "file": "ft001_grandmother_worried_phase1_candidate01.png",
+    "exists": true,
+    "meta_exists": true,
+    "mode": "RGBA",
+    "size": [
+      1024,
+      1536
+    ],
+    "has_alpha": true,
+    "transparent_corners": true
+  },
+  {
+    "expression": "defensive",
+    "file": "ft001_grandmother_defensive_phase1_candidate01.png",
+    "exists": true,
+    "meta_exists": true,
+    "mode": "RGBA",
+    "size": [
+      1024,
+      1536
+    ],
+    "has_alpha": true,
+    "transparent_corners": true
+  },
+  {
+    "expression": "softened",
+    "file": "ft001_grandmother_softened_phase1_candidate01.png",
+    "exists": true,
+    "meta_exists": true,
+    "mode": "RGBA",
+    "size": [
+      1024,
+      1536
+    ],
+    "has_alpha": true,
+    "transparent_corners": true
+  },
+  {
+    "expression": "stubborn",
+    "file": "ft001_grandmother_stubborn_phase1_candidate01.png",
+    "exists": true,
+    "meta_exists": true,
+    "mode": "RGBA",
+    "size": [
+      1024,
+      1536
+    ],
+    "has_alpha": true,
+    "transparent_corners": true
+  }
+]

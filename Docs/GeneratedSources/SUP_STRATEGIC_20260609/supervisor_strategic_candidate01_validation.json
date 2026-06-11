@@ -1,0 +1,74 @@
+[
+  {
+    "file": "supervisor_strategic_neutral_candidate01.png",
+    "exists": true,
+    "mode": "RGBA",
+    "size": [
+      1024,
+      1536
+    ],
+    "has_alpha": true,
+    "transparent_corners": true,
+    "meta_exists": true
+  },
+  {
+    "file": "supervisor_strategic_explaining_candidate01.png",
+    "exists": true,
+    "mode": "RGBA",
+    "size": [
+      1024,
+      1536
+    ],
+    "has_alpha": true,
+    "transparent_corners": true,
+    "meta_exists": true
+  },
+  {
+    "file": "supervisor_strategic_questioning_candidate01.png",
+    "exists": true,
+    "mode": "RGBA",
+    "size": [
+      1024,
+      1536
+    ],
+    "has_alpha": true,
+    "transparent_corners": true,
+    "meta_exists": true
+  },
+  {
+    "file": "supervisor_strategic_warning_candidate01.png",
+    "exists": true,
+    "mode": "RGBA",
+    "size": [
+      1024,
+      1536
+    ],
+    "has_alpha": true,
+    "transparent_corners": true,
+    "meta_exists": true
+  },
+  {
+    "file": "supervisor_strategic_approving_candidate01.png",
+    "exists": true,
+    "mode": "RGBA",
+    "size": [
+      1024,
+      1536
+    ],
+    "has_alpha": true,
+    "transparent_corners": true,
+    "meta_exists": true
+  },
+  {
+    "file": "supervisor_strategic_reflective_candidate01.png",
+    "exists": true,
+    "mode": "RGBA",
+    "size": [
+      1024,
+      1536
+    ],
+    "has_alpha": true,
+    "transparent_corners": true,
+    "meta_exists": true
+  }
+]

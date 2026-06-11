@@ -42,9 +42,12 @@
 - 상용판 자산 매니페스트:
   - 목표 자산 수: 약 750장
   - 현재 런타임 후보 자산: 762장
-  - 현재 필수 적용 자산: 44장
-  - 현재 사용 가능 필수 자산: 44장
-  - 남은 누락 필수 자산: 없음
+  - 레거시 VN 캐릭터/UI 필수 자산: 44장
+  - 레거시 VN 캐릭터/UI 사용 가능 필수 자산: 44장
+  - 레거시 VN 캐릭터/UI 누락 필수 자산: 없음
+  - FT002~FT010 EventCG 슬롯 감사는 별도 기준이다.
+    - 현재 기준: 385장 필요 / 21장 사용 가능 / 364장 누락
+    - 최신 로그: `Logs/ft002_ft010_round3_vn_audit_rerun.log`
   - Chapter01 `FT-001`~`FT-010` 캐릭터 PNG는 폴더 스캔으로 자동 등록됨
   - CoreCases `FT-011`~`FT-024` 캐릭터 PNG는 폴더 스캔으로 자동 등록됨
 - 합성 가족 사례 60개 데이터셋.
@@ -155,6 +158,7 @@
     - `vnRequiredAssetCount=44`
     - `vnAvailableAssetCount=44`
     - `missingVnAssets=[]`
+    - 위 값은 레거시 VN 캐릭터/UI 필수 자산 검사이며, FT002~FT010 EventCG 슬롯 364장 누락과 별개임
     - `ft001VnReady=true`
     - `commercialAssetTarget=750`
     - `commercialAssetCurrent=762`

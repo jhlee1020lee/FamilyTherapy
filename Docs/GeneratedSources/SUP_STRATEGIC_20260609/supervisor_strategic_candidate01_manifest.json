@@ -1,0 +1,32 @@
+[
+  {
+    "expression": "neutral",
+    "source": "C:\\Users\\이종호\\.codex\\generated_images\\019ea69c-c43a-7d93-85a1-9eae1a2dfbea\\ig_049a4d0110bdb024016a27b7ba789c8191acaec89b7e782bfa.png",
+    "runtime": "C:\\codex\\snu_etl_downloader_portable\\downloads\\2026_Spring\\child_and_family_trends_and_big_data_analysis\\99_FamilyTherapyPracticumUnity\\Assets\\Resources\\VN\\Characters\\Supervisors\\supervisor_strategic_neutral_candidate01.png"
+  },
+  {
+    "expression": "explaining",
+    "source": "C:\\Users\\이종호\\.codex\\generated_images\\019ea69c-c43a-7d93-85a1-9eae1a2dfbea\\ig_049a4d0110bdb024016a27b81e10a88191a9d3f76aaba3b3ff.png",
+    "runtime": "C:\\codex\\snu_etl_downloader_portable\\downloads\\2026_Spring\\child_and_family_trends_and_big_data_analysis\\99_FamilyTherapyPracticumUnity\\Assets\\Resources\\VN\\Characters\\Supervisors\\supervisor_strategic_explaining_candidate01.png"
+  },
+  {
+    "expression": "questioning",
+    "source": "C:\\Users\\이종호\\.codex\\generated_images\\019ea69c-c43a-7d93-85a1-9eae1a2dfbea\\ig_049a4d0110bdb024016a27b88ccb9c8191be9400a25358972d.png",
+    "runtime": "C:\\codex\\snu_etl_downloader_portable\\downloads\\2026_Spring\\child_and_family_trends_and_big_data_analysis\\99_FamilyTherapyPracticumUnity\\Assets\\Resources\\VN\\Characters\\Supervisors\\supervisor_strategic_questioning_candidate01.png"
+  },
+  {
+    "expression": "warning",
+    "source": "C:\\Users\\이종호\\.codex\\generated_images\\019ea69c-c43a-7d93-85a1-9eae1a2dfbea\\ig_049a4d0110bdb024016a27b91f308481918595441bbeb22a98.png",
+    "runtime": "C:\\codex\\snu_etl_downloader_portable\\downloads\\2026_Spring\\child_and_family_trends_and_big_data_analysis\\99_FamilyTherapyPracticumUnity\\Assets\\Resources\\VN\\Characters\\Supervisors\\supervisor_strategic_warning_candidate01.png"
+  },
+  {
+    "expression": "approving",
+    "source": "C:\\Users\\이종호\\.codex\\generated_images\\019ea69c-c43a-7d93-85a1-9eae1a2dfbea\\ig_049a4d0110bdb024016a27b9a72d1881918ac23c713cb50e45.png",
+    "runtime": "C:\\codex\\snu_etl_downloader_portable\\downloads\\2026_Spring\\child_and_family_trends_and_big_data_analysis\\99_FamilyTherapyPracticumUnity\\Assets\\Resources\\VN\\Characters\\Supervisors\\supervisor_strategic_approving_candidate01.png"
+  },
+  {
+    "expression": "reflective",
+    "source": "C:\\Users\\이종호\\.codex\\generated_images\\019ea69c-c43a-7d93-85a1-9eae1a2dfbea\\ig_049a4d0110bdb024016a27bb4206fc8191b77daea1ce7fa93f.png",
+    "runtime": "C:\\codex\\snu_etl_downloader_portable\\downloads\\2026_Spring\\child_and_family_trends_and_big_data_analysis\\99_FamilyTherapyPracticumUnity\\Assets\\Resources\\VN\\Characters\\Supervisors\\supervisor_strategic_reflective_candidate01.png"
+  }
+]

@@ -48,8 +48,12 @@ Assets\ConceptArt\StyleTest_2026-06-08\supervisor_psychodynamic_front.png
 표시명과 파일 ID 매핑:
 - 박성빈: `ft001_mother`
 - 이주형: `ft001_child`
+  - 중요 수정: 이주형은 남자 초등학생이다. 기존 후보 이미지들이 여학생처럼 생성되어 런타임에서 잘못 보였으므로, 다음 생성부터는 짧은 검은 머리의 남자 아이로 명확히 생성한다.
+  - 임시 런타임 교정 파일: `Assets\Resources\VN\Characters\FT001\ft001_child_male_neutral_phase1.png`
 - 오선진: `ft001_grandmother`
 - 서건창: `ft001_teacher`
+  - 중요 수정: 서건창은 남자 담임교사다. 기존 후보 이미지들이 여성 교사처럼 생성되어 런타임에서 잘못 보였으므로, 다음 생성부터는 30~40대 남자 교사로 명확히 생성한다.
+  - 임시 런타임 교정 파일: `Assets\Resources\VN\Characters\FT001\ft001_teacher_male_neutral_phase1.png`
 - 김혜성: `supervisor_system`
 - 안우진: `supervisor_bowen`
 - 김윤하: `supervisor_strategic`
@@ -121,9 +125,19 @@ Assets\Resources\VN\UI\
 생성할 캐릭터 표정:
 - 박성빈 `ft001_mother`: neutral, anxious, defensive, exhausted, softened, worried, tearful, listening
 - 이주형 `ft001_child`: neutral, anxious, withdrawn, scared, quiet, relieved, hesitant, listening
+  - 반드시 남자 초등학생으로 생성한다. 여학생/중학생/성인처럼 보이면 실패 처리한다.
+  - 현재 코드의 긴급 교정은 `ft001_child_male_neutral_phase1.png`를 사용하지만, 최종 표정 세트는 기존 런타임 파일명 `ft001_child_<expression>_phase1.png` 전체를 남자 아이로 다시 생성해 교체하는 것이 목표다.
 - 오선진 `ft001_grandmother`: neutral, critical, worried, defensive, softened, stubborn
 - 서건창 `ft001_teacher`: neutral, concerned, procedural, softened
+  - 반드시 30~40대 남자 담임교사로 생성한다. 여성 교사처럼 보이면 실패 처리한다.
+  - 현재 코드의 긴급 교정은 `ft001_teacher_male_neutral_phase1.png`를 사용하지만, 최종 표정 세트는 기존 런타임 파일명 `ft001_teacher_<expression>_phase1.png` 전체를 남자 교사로 다시 생성해 교체하는 것이 목표다.
 - 김혜성 `supervisor_system`: neutral, explaining, warning, approving, questioning, reflective
+
+긴급 교정 메모 2026-06-09:
+- 이주형과 서건창은 사용자가 직접 남자 캐릭터로 지정했다.
+- 이전 contact sheet에서 `ft001_child_*`, `ft001_teacher_*`가 여성 캐릭터처럼 보이는 문제가 확인되었다.
+- 이미지 생성 전담 창은 이 두 인물을 반드시 남성으로 다시 생성해야 한다.
+- 새 표정 세트를 만들 때는 캐릭터 정체성을 먼저 고정하고, 표정만 바꾼다. 성별, 나이대, 헤어스타일, 의상 실루엣이 컷마다 바뀌면 실패다.
 
 PHASE 1 목표 수량:
 - 캐릭터/표정: 32장
@@ -239,4 +253,3 @@ UI/아이콘 예:
 첫 실행 지시:
 지금 즉시 PHASE 0의 남은 4장을 생성해 스타일 테스트 14장을 완성한다. 완료 후 바로 PHASE 1에 필요한 44장 목록을 체크리스트로 만들고, 서브 에이전트로 검토를 한 후  PHASE 1 이미지를 생성한다.
 ```
-

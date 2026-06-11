@@ -1,0 +1,27 @@
+[
+  {
+    "expression": "neutral",
+    "runtime": "C:\\codex\\snu_etl_downloader_portable\\downloads\\2026_Spring\\child_and_family_trends_and_big_data_analysis\\99_FamilyTherapyPracticumUnity\\Assets\\Resources\\VN\\Characters\\FT001\\ft001_mother_neutral_phase1_candidate01.png",
+    "source_copy": "C:\\codex\\snu_etl_downloader_portable\\downloads\\2026_Spring\\child_and_family_trends_and_big_data_analysis\\99_FamilyTherapyPracticumUnity\\Docs\\GeneratedSources\\FT001_Mother_SideWindow_20260609\\selected_sources\\ft001_mother_neutral_phase1_candidate01_source.png"
+  },
+  {
+    "expression": "anxious",
+    "runtime": "C:\\codex\\snu_etl_downloader_portable\\downloads\\2026_Spring\\child_and_family_trends_and_big_data_analysis\\99_FamilyTherapyPracticumUnity\\Assets\\Resources\\VN\\Characters\\FT001\\ft001_mother_anxious_phase1_candidate01.png",
+    "source_copy": "C:\\codex\\snu_etl_downloader_portable\\downloads\\2026_Spring\\child_and_family_trends_and_big_data_analysis\\99_FamilyTherapyPracticumUnity\\Docs\\GeneratedSources\\FT001_Mother_SideWindow_20260609\\selected_sources\\ft001_mother_anxious_phase1_candidate01_source.png"
+  },
+  {
+    "expression": "defensive",
+    "runtime": "C:\\codex\\snu_etl_downloader_portable\\downloads\\2026_Spring\\child_and_family_trends_and_big_data_analysis\\99_FamilyTherapyPracticumUnity\\Assets\\Resources\\VN\\Characters\\FT001\\ft001_mother_defensive_phase1_candidate01.png",
+    "source_copy": "C:\\codex\\snu_etl_downloader_portable\\downloads\\2026_Spring\\child_and_family_trends_and_big_data_analysis\\99_FamilyTherapyPracticumUnity\\Docs\\GeneratedSources\\FT001_Mother_SideWindow_20260609\\selected_sources\\ft001_mother_defensive_phase1_candidate01_source.png"
+  },
+  {
+    "expression": "exhausted",
+    "runtime": "C:\\codex\\snu_etl_downloader_portable\\downloads\\2026_Spring\\child_and_family_trends_and_big_data_analysis\\99_FamilyTherapyPracticumUnity\\Assets\\Resources\\VN\\Characters\\FT001\\ft001_mother_exhausted_phase1_candidate01.png",
+    "source_copy": "C:\\codex\\snu_etl_downloader_portable\\downloads\\2026_Spring\\child_and_family_trends_and_big_data_analysis\\99_FamilyTherapyPracticumUnity\\Docs\\GeneratedSources\\FT001_Mother_SideWindow_20260609\\selected_sources\\ft001_mother_exhausted_phase1_candidate01_source.png"
+  },
+  {
+    "expression": "softened",
+    "runtime": "C:\\codex\\snu_etl_downloader_portable\\downloads\\2026_Spring\\child_and_family_trends_and_big_data_analysis\\99_FamilyTherapyPracticumUnity\\Assets\\Resources\\VN\\Characters\\FT001\\ft001_mother_softened_phase1_candidate01.png",
+    "source_copy": "C:\\codex\\snu_etl_downloader_portable\\downloads\\2026_Spring\\child_and_family_trends_and_big_data_analysis\\99_FamilyTherapyPracticumUnity\\Docs\\GeneratedSources\\FT001_Mother_SideWindow_20260609\\selected_sources\\ft001_mother_softened_phase1_candidate01_source.png"
+  }
+]

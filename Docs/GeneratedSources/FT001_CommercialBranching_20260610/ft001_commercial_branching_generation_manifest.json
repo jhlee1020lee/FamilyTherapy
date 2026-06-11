@@ -1,0 +1,70 @@
+{
+  "version": 1,
+  "created_date": "2026-06-10",
+  "source_documents": [
+    "Docs/FT001_IMAGE_PIPELINE_COORDINATION_BRIEF_2026-06-10.md",
+    "Docs/FT001_COMMERCIAL_CG_GENERATION_COMMAND_AFTER_REFERENCES_2026-06-10.md"
+  ],
+  "final_runtime_folder": "Assets/Resources/VN/EventCG/FT001_CommercialBranching",
+  "source_archive_folder": "Docs/GeneratedSources/FT001_CommercialBranching_20260610/source",
+  "contact_sheets": [
+    "Docs/GeneratedSources/FT001_CommercialBranching_20260610/contact_sheets/ft001_cb_batch01_intro_001_004_contact_sheet.png",
+    "Docs/GeneratedSources/FT001_CommercialBranching_20260610/contact_sheets/ft001_cb_batch02_t1_t2_005_011_contact_sheet.png",
+    "Docs/GeneratedSources/FT001_CommercialBranching_20260610/contact_sheets/ft001_cb_batch03_t3_t4_012_021_contact_sheet.png",
+    "Docs/GeneratedSources/FT001_CommercialBranching_20260610/contact_sheets/ft001_cb_batch04_end_supervisor_022_030_contact_sheet.png",
+    "Docs/GeneratedSources/FT001_CommercialBranching_20260610/contact_sheets/ft001_cb_all_030_contact_sheet_20260610.png"
+  ],
+  "final_size": [1600, 900],
+  "generation_mode": "built-in image_gen, one prompt per shot, normalized with ffmpeg",
+  "kim_hyesung_reference_policy": {
+    "current_reference_folder": "Docs/GeneratedSources/FT001_KH_FemaleRef_20260610",
+    "identity_reference": "Docs/GeneratedSources/FT001_KH_FemaleRef_20260610/ref/kh_f_identity_1600x900.png",
+    "speaking_reference": "Docs/GeneratedSources/FT001_KH_FemaleRef_20260610/ref/kh_f_speaking_1600x900.png",
+    "composition_reference": "Docs/GeneratedSources/FT001_KH_FemaleRef_20260610/ref/kh_f_opposite_seating_1600x900.png",
+    "lock": "Kim Hyesung is a female supervisor/therapist, not Seo Geonchang, not male, not teacher, not a fifth family member."
+  },
+  "final_cgs": [
+    "ft001_cb_001_intro_mother_pressure.png",
+    "ft001_cb_002_intro_child_anxiety.png",
+    "ft001_cb_003_intro_grandmother_worry.png",
+    "ft001_cb_004_intro_teacher_procedure.png",
+    "ft001_cb_005_t1_good_joining_reaction.png",
+    "ft001_cb_006_t1_bad_ip_fixed_reaction.png",
+    "ft001_cb_007_t1_procedure_reaction.png",
+    "ft001_cb_008_t2_systemic_morning_map.png",
+    "ft001_cb_009_t2_rupture_repair_apology.png",
+    "ft001_cb_010_t2_institutional_loop.png",
+    "ft001_cb_011_t2_choice_idle_three_routes.png",
+    "ft001_cb_012_t3_open_grandmother_worry.png",
+    "ft001_cb_013_t3_fragile_rejoining.png",
+    "ft001_cb_014_t3_rupture_therapist_responsibility.png",
+    "ft001_cb_015_t3_compliance_without_feeling.png",
+    "ft001_cb_016_t3_exception_child_speaks.png",
+    "ft001_cb_017_t4_systemic_circular_question.png",
+    "ft001_cb_018_t4_fragile_failure_rule.png",
+    "ft001_cb_019_t4_rupture_repair_not_solution.png",
+    "ft001_cb_020_t4_institutional_pressure_reduced.png",
+    "ft001_cb_021_t4_bad_diagnostic_closure.png",
+    "ft001_cb_022_ending_system_plan.png",
+    "ft001_cb_023_ending_fragile_agreement.png",
+    "ft001_cb_024_ending_compliance.png",
+    "ft001_cb_025_ending_rupture.png",
+    "ft001_cb_026_supervisor_hyesung_opening.png",
+    "ft001_cb_027_supervisor_hyesung_rupture_warning.png",
+    "ft001_cb_028_supervisor_hyesung_final_review.png",
+    "ft001_cb_029_choice_idle_tense.png",
+    "ft001_cb_030_spare_best_route_softening.png"
+  ],
+  "batch_source_folders": [
+    "Docs/GeneratedSources/FT001_CommercialBranching_20260610/source/batch01_intro_001_004",
+    "Docs/GeneratedSources/FT001_CommercialBranching_20260610/source/batch02_t1_t2_005_011",
+    "Docs/GeneratedSources/FT001_CommercialBranching_20260610/source/batch03_t3_t4_012_021",
+    "Docs/GeneratedSources/FT001_CommercialBranching_20260610/source/batch04_end_supervisor_022_030"
+  ],
+  "validation_summary": {
+    "final_count": 30,
+    "dimension_check": "30/30 final CGs verified at 1600x900",
+    "visual_review": "Batch and full contact sheets reviewed for seating, role, Kim Hyesung gender lock, and clean lower dialogue area.",
+    "runtime_note": "Images are generated and saved. Unity mapping still needs a separate code pass because the coordination brief says the current helper previously targeted VN/EventCG/FT001."
+  }
+}
